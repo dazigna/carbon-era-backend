@@ -46,7 +46,7 @@ assert not(any([s for s in dataColumnsOriginal if any(xs in s for xs in charsToC
 
 
 #Cleaned up schema
-keysToRemove += ['Code_gaz_', 'Valeur_gaz_']
+keysToRemove += ['Code_gaz_', 'Valeur_gaz_', '_espagnol', 'qualite', 'commentaire', 'nom_poste_', 'contributeur', 'source', 'reglementation', 'programme', 'date']
 cleanedUpSchema = cleanUpSchema(originalSchema, 'key', keysToKeep, keysToRemove)
 #Normalize resulting list of objects
 for dict in cleanedUpSchema:
@@ -63,6 +63,9 @@ listTypes = [{dict.get('key'):dict.get('type') for k in keysToKeep} for dict in 
 dataTypes = {k:v for element in listTypes for k,v in element.items()}
 
 
+#Extract all enums
+enumList = [{dict.get('key'):dict.get('enum')} for dict in cleanedUpSchema]
+
 #Read original CSV with Original col name
 dbOriginal = pd.read_csv('BaseCarbonev202.csv', header=0, names=dataColumnsOriginal, delimiter=';', encoding='latin-1', decimal=',').convert_dtypes()
 
@@ -75,3 +78,6 @@ jsonDb = dbCleanValid.to_json(orient='records', indent=4)
 
 with open('dbcarbon.json', 'w', encoding='utf-8') as f:
   f.write(jsonDb)
+
+with open('dbCarbonEnums.json', 'w', encoding='utf-8') as f:
+  json.dump(enumList,f, indent=4)
