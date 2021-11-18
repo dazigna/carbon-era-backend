@@ -62,7 +62,6 @@ listTypes = [{dict.get('key'):dict.get('type') for k in keysToKeep} for dict in 
 #Condition types to become a dict instead of list of dict for Pandas
 dataTypes = {k:v for element in listTypes for k,v in element.items()}
 
-
 #Extract all enums
 enumList = [{dict.get('key'):dict.get('enum')} for dict in cleanedUpSchema]
 
@@ -72,12 +71,21 @@ dbOriginal = pd.read_csv('BaseCarbonev202.csv', header=0, names=dataColumnsOrigi
 dbClean = pd.DataFrame(dbOriginal,columns=dataColumnsClean)
 
 #Select only valid elements
-dbCleanValid = dbClean.loc[(dbClean['total_poste_non_decompose']>0) & (dbClean['statut_de_l_element'].isin(["Valide générique","Valide spécifique"]))]
+dbCleanValid = dbClean.loc[
+  (dbClean['total_poste_non_decompose']>0) &
+  (dbClean['statut_de_l_element'].isin(["Valide générique","Valide spécifique"])) & 
+  (dbClean["unite_francais"].str.contains('kgCO2e'))
+  ]
+
+listUnit = pd.DataFrame(dbCleanValid['unite_francais'].unique(), columns=['units'])
 
 jsonDb = dbCleanValid.to_json(orient='records', indent=4)
-
 with open('dbcarbon.json', 'w', encoding='utf-8') as f:
   f.write(jsonDb)
 
 with open('dbCarbonEnums.json', 'w', encoding='utf-8') as f:
   json.dump(enumList,f, indent=4)
+
+jsonUnit = listUnit.to_json(orient='columns', indent=4)
+with open('dbCarbonUnits.json', 'w', encoding='utf-8') as f:
+  f.write(jsonUnit)
