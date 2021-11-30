@@ -1,0 +1,2208 @@
+[
+    {
+        "categorie": "achats de biens",
+        "subs": [
+            "produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+            "plastiques et produits chimiques",
+            "m\u00e9taux et produits m\u00e9talliques",
+            "produits de l'agriculture et de la p\u00eache",
+            "machines et \u00e9quipements",
+            "mobilier",
+            "autres produits manufactur\u00e9s",
+            "b\u00e2timents, ouvrages d'art et voirie",
+            "produits min\u00e9raux non m\u00e9talliques",
+            "bois",
+            "papier, carton",
+            "textile et habillement",
+            "hydrog\u00e8ne",
+            "eau,  traitement et distribution d'eau",
+            "minerais, granulats",
+            "v\u00e9hicules automobiles et autres mat\u00e9riels de transport"
+        ]
+    },
+    {
+        "categorie": "produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "subs": [
+            "entr\u00e9es et plats compos\u00e9s",
+            "produits c\u00e9r\u00e9aliers",
+            "fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux",
+            "lait et produits laitiers",
+            "viandes, ?ufs, poissons",
+            "aides culinaires et ingr\u00e9dients divers",
+            "boissons",
+            "produits sucr\u00e9s",
+            "mati\u00e8res grasses",
+            "aliments infantiles",
+            "glaces et sorbets"
+        ]
+    },
+    {
+        "categorie": "entr\u00e9es et plats compos\u00e9s",
+        "subs": [
+            "salades compos\u00e9es et crudit\u00e9s",
+            "plats compos\u00e9s",
+            "feuillet\u00e9s et autres entr\u00e9es",
+            "soupes",
+            "sandwichs",
+            "pizzas, tartes et cr\u00eapes sal\u00e9es"
+        ]
+    },
+    {
+        "categorie": "salades compos\u00e9es et crudit\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "plats compos\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "feuillet\u00e9s et autres entr\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "soupes",
+        "subs": []
+    },
+    {
+        "categorie": "sandwichs",
+        "subs": []
+    },
+    {
+        "categorie": "pizzas, tartes et cr\u00eapes sal\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "produits c\u00e9r\u00e9aliers",
+        "subs": [
+            "pains et viennoiseries",
+            "c\u00e9r\u00e9ales de petit-d\u00e9jeuner et biscuits",
+            "p\u00e2tes, riz et c\u00e9r\u00e9ales",
+            "farines et p\u00e2tes \u00e0 tarte",
+            "g\u00e2teaux et p\u00e2tisseries"
+        ]
+    },
+    {
+        "categorie": "pains et viennoiseries",
+        "subs": []
+    },
+    {
+        "categorie": "c\u00e9r\u00e9ales de petit-d\u00e9jeuner et biscuits",
+        "subs": []
+    },
+    {
+        "categorie": "p\u00e2tes, riz et c\u00e9r\u00e9ales",
+        "subs": []
+    },
+    {
+        "categorie": "farines et p\u00e2tes \u00e0 tarte",
+        "subs": []
+    },
+    {
+        "categorie": "g\u00e2teaux et p\u00e2tisseries",
+        "subs": []
+    },
+    {
+        "categorie": "fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux",
+        "subs": [
+            "l\u00e9gumes",
+            "fruits",
+            "fruits \u00e0 coque et graines ol\u00e9agineuses",
+            "pommes de terre et autres tubercules",
+            "l\u00e9gumineuses"
+        ]
+    },
+    {
+        "categorie": "l\u00e9gumes",
+        "subs": []
+    },
+    {
+        "categorie": "fruits",
+        "subs": []
+    },
+    {
+        "categorie": "fruits \u00e0 coque et graines ol\u00e9agineuses",
+        "subs": []
+    },
+    {
+        "categorie": "pommes de terre et autres tubercules",
+        "subs": []
+    },
+    {
+        "categorie": "l\u00e9gumineuses",
+        "subs": []
+    },
+    {
+        "categorie": "lait et produits laitiers",
+        "subs": [
+            "fromages",
+            "produits laitiers frais et assimil\u00e9s",
+            "cr\u00e8mes et sp\u00e9cialit\u00e9s \u00e0 base de cr\u00e8me",
+            "laits"
+        ]
+    },
+    {
+        "categorie": "fromages",
+        "subs": []
+    },
+    {
+        "categorie": "produits laitiers frais et assimil\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "cr\u00e8mes et sp\u00e9cialit\u00e9s \u00e0 base de cr\u00e8me",
+        "subs": []
+    },
+    {
+        "categorie": "laits",
+        "subs": []
+    },
+    {
+        "categorie": "viandes, ?ufs, poissons",
+        "subs": [
+            "produits \u00e0 base de poissons et produits de la mer",
+            "viandes cuites",
+            "viandes crues",
+            "poissons crus",
+            "charcuteries",
+            "poissons cuits",
+            "autres produits \u00e0 base de viande",
+            "mollusques et crustac\u00e9s cuits",
+            "mollusques et crustac\u00e9s crus",
+            "oeufs"
+        ]
+    },
+    {
+        "categorie": "produits \u00e0 base de poissons et produits de la mer",
+        "subs": []
+    },
+    {
+        "categorie": "viandes cuites",
+        "subs": []
+    },
+    {
+        "categorie": "viandes crues",
+        "subs": []
+    },
+    {
+        "categorie": "poissons crus",
+        "subs": []
+    },
+    {
+        "categorie": "charcuteries",
+        "subs": []
+    },
+    {
+        "categorie": "poissons cuits",
+        "subs": []
+    },
+    {
+        "categorie": "autres produits \u00e0 base de viande",
+        "subs": []
+    },
+    {
+        "categorie": "mollusques et crustac\u00e9s cuits",
+        "subs": []
+    },
+    {
+        "categorie": "mollusques et crustac\u00e9s crus",
+        "subs": []
+    },
+    {
+        "categorie": "oeufs",
+        "subs": []
+    },
+    {
+        "categorie": "aides culinaires et ingr\u00e9dients divers",
+        "subs": [
+            "herbes",
+            "algues",
+            "ingr\u00e9dients divers",
+            "epices",
+            "aides culinaires",
+            "sauces",
+            "condiments",
+            "sels",
+            "denr\u00e9es destin\u00e9es \u00e0 une alimentation particuli\u00e8re"
+        ]
+    },
+    {
+        "categorie": "herbes",
+        "subs": []
+    },
+    {
+        "categorie": "algues",
+        "subs": []
+    },
+    {
+        "categorie": "ingr\u00e9dients divers",
+        "subs": []
+    },
+    {
+        "categorie": "epices",
+        "subs": []
+    },
+    {
+        "categorie": "aides culinaires",
+        "subs": []
+    },
+    {
+        "categorie": "sauces",
+        "subs": []
+    },
+    {
+        "categorie": "condiments",
+        "subs": []
+    },
+    {
+        "categorie": "sels",
+        "subs": []
+    },
+    {
+        "categorie": "denr\u00e9es destin\u00e9es \u00e0 une alimentation particuli\u00e8re",
+        "subs": []
+    },
+    {
+        "categorie": "boissons",
+        "subs": [
+            "boissons alcoolis\u00e9es",
+            "boissons sans alcool",
+            "eaux"
+        ]
+    },
+    {
+        "categorie": "boissons alcoolis\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "boissons sans alcool",
+        "subs": []
+    },
+    {
+        "categorie": "eaux",
+        "subs": []
+    },
+    {
+        "categorie": "produits sucr\u00e9s",
+        "subs": [
+            "chocolats et produits \u00e0 base de chocolat",
+            "confiseries non chocolat\u00e9es",
+            "confitures et assimil\u00e9s",
+            "sucres, miels et assimil\u00e9s"
+        ]
+    },
+    {
+        "categorie": "chocolats et produits \u00e0 base de chocolat",
+        "subs": []
+    },
+    {
+        "categorie": "confiseries non chocolat\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "confitures et assimil\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "sucres, miels et assimil\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "mati\u00e8res grasses",
+        "subs": [
+            "beurres",
+            "huiles et graisses v\u00e9g\u00e9tales",
+            "autres mati\u00e8res grasses",
+            "huiles de poissons",
+            "margarines"
+        ]
+    },
+    {
+        "categorie": "beurres",
+        "subs": []
+    },
+    {
+        "categorie": "huiles et graisses v\u00e9g\u00e9tales",
+        "subs": []
+    },
+    {
+        "categorie": "autres mati\u00e8res grasses",
+        "subs": []
+    },
+    {
+        "categorie": "huiles de poissons",
+        "subs": []
+    },
+    {
+        "categorie": "margarines",
+        "subs": []
+    },
+    {
+        "categorie": "aliments infantiles",
+        "subs": [
+            "c\u00e9r\u00e9ales et biscuits infantiles",
+            "laits et boissons infantiles",
+            "desserts infantiles",
+            "petits pots sal\u00e9s et plats infantiles"
+        ]
+    },
+    {
+        "categorie": "c\u00e9r\u00e9ales et biscuits infantiles",
+        "subs": []
+    },
+    {
+        "categorie": "laits et boissons infantiles",
+        "subs": []
+    },
+    {
+        "categorie": "desserts infantiles",
+        "subs": []
+    },
+    {
+        "categorie": "petits pots sal\u00e9s et plats infantiles",
+        "subs": []
+    },
+    {
+        "categorie": "glaces et sorbets",
+        "subs": [
+            "desserts glac\u00e9s",
+            "glaces",
+            "sorbets"
+        ]
+    },
+    {
+        "categorie": "desserts glac\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "glaces",
+        "subs": []
+    },
+    {
+        "categorie": "sorbets",
+        "subs": []
+    },
+    {
+        "categorie": "plastiques et produits chimiques",
+        "subs": [
+            "produits chimiques",
+            "plastiques et caoutchouc"
+        ]
+    },
+    {
+        "categorie": "produits chimiques",
+        "subs": [
+            "produits chimiques de base",
+            "engrais, phytosanitaires...",
+            "peintures et r\u00e9sines",
+            "autres produits chimiques"
+        ]
+    },
+    {
+        "categorie": "produits chimiques de base",
+        "subs": []
+    },
+    {
+        "categorie": "engrais, phytosanitaires...",
+        "subs": [
+            "produits chimiques sp\u00e9cifiques \u00e0 la viticulture",
+            "engrais et compos\u00e9s azot\u00e9s",
+            "phytosanitaires"
+        ]
+    },
+    {
+        "categorie": "peintures et r\u00e9sines",
+        "subs": []
+    },
+    {
+        "categorie": "autres produits chimiques",
+        "subs": []
+    },
+    {
+        "categorie": "plastiques et caoutchouc",
+        "subs": [
+            "polym\u00e8res de l'\u00e9thyl\u00e8ne",
+            "polyamides",
+            "plastique moyen",
+            "polym\u00e8res du styr\u00e8ne",
+            "polym\u00e8res du chlorure de vinyle",
+            "polym\u00e8res de propyl\u00e8ne"
+        ]
+    },
+    {
+        "categorie": "polym\u00e8res de l'\u00e9thyl\u00e8ne",
+        "subs": []
+    },
+    {
+        "categorie": "polyamides",
+        "subs": []
+    },
+    {
+        "categorie": "plastique moyen",
+        "subs": []
+    },
+    {
+        "categorie": "polym\u00e8res du styr\u00e8ne",
+        "subs": []
+    },
+    {
+        "categorie": "polym\u00e8res du chlorure de vinyle",
+        "subs": []
+    },
+    {
+        "categorie": "polym\u00e8res de propyl\u00e8ne",
+        "subs": []
+    },
+    {
+        "categorie": "m\u00e9taux et produits m\u00e9talliques",
+        "subs": [
+            "acier",
+            "aluminium",
+            "cuivre",
+            "autres m\u00e9taux"
+        ]
+    },
+    {
+        "categorie": "acier",
+        "subs": []
+    },
+    {
+        "categorie": "aluminium",
+        "subs": []
+    },
+    {
+        "categorie": "cuivre",
+        "subs": []
+    },
+    {
+        "categorie": "autres m\u00e9taux",
+        "subs": []
+    },
+    {
+        "categorie": "produits de l'agriculture et de la p\u00eache",
+        "subs": [
+            "produits animaux",
+            "produits de la mer",
+            "produits v\u00e9g\u00e9taux"
+        ]
+    },
+    {
+        "categorie": "produits animaux",
+        "subs": [
+            "ovins",
+            "bovins",
+            "volailles",
+            "caprins",
+            "cuniculture",
+            "porcins"
+        ]
+    },
+    {
+        "categorie": "ovins",
+        "subs": []
+    },
+    {
+        "categorie": "bovins",
+        "subs": []
+    },
+    {
+        "categorie": "volailles",
+        "subs": [
+            "autres volailles",
+            "?ufs",
+            "poules",
+            "poulets de chair"
+        ]
+    },
+    {
+        "categorie": "caprins",
+        "subs": []
+    },
+    {
+        "categorie": "cuniculture",
+        "subs": []
+    },
+    {
+        "categorie": "porcins",
+        "subs": []
+    },
+    {
+        "categorie": "produits de la mer",
+        "subs": [
+            "p\u00eache",
+            "aquaculture"
+        ]
+    },
+    {
+        "categorie": "p\u00eache",
+        "subs": []
+    },
+    {
+        "categorie": "aquaculture",
+        "subs": []
+    },
+    {
+        "categorie": "produits v\u00e9g\u00e9taux",
+        "subs": [
+            "fruits",
+            "autres produits v\u00e9g\u00e9taux",
+            "c\u00e9r\u00e9ales",
+            "l\u00e9gumineuses",
+            "l\u00e9gumes, racines et tubercules",
+            "plantes \u00e0 boisson et aromatiques",
+            "ol\u00e9agineux",
+            "raisins"
+        ]
+    },
+    {
+        "categorie": "fruits",
+        "subs": []
+    },
+    {
+        "categorie": "autres produits v\u00e9g\u00e9taux",
+        "subs": []
+    },
+    {
+        "categorie": "c\u00e9r\u00e9ales",
+        "subs": []
+    },
+    {
+        "categorie": "l\u00e9gumineuses",
+        "subs": []
+    },
+    {
+        "categorie": "l\u00e9gumes, racines et tubercules",
+        "subs": []
+    },
+    {
+        "categorie": "plantes \u00e0 boisson et aromatiques",
+        "subs": []
+    },
+    {
+        "categorie": "ol\u00e9agineux",
+        "subs": []
+    },
+    {
+        "categorie": "raisins",
+        "subs": []
+    },
+    {
+        "categorie": "machines et \u00e9quipements",
+        "subs": [
+            "equipements \u00e9lectriques",
+            "electrom\u00e9nager",
+            "informatique et \u00e9quipements \u00e9lectroniques",
+            "machines industrielles"
+        ]
+    },
+    {
+        "categorie": "equipements \u00e9lectriques",
+        "subs": []
+    },
+    {
+        "categorie": "electrom\u00e9nager",
+        "subs": []
+    },
+    {
+        "categorie": "informatique et \u00e9quipements \u00e9lectroniques",
+        "subs": []
+    },
+    {
+        "categorie": "machines industrielles",
+        "subs": []
+    },
+    {
+        "categorie": "mobilier",
+        "subs": []
+    },
+    {
+        "categorie": "autres produits manufactur\u00e9s",
+        "subs": [
+            "articles de sport",
+            "usage viticulture",
+            "consommables de bureau"
+        ]
+    },
+    {
+        "categorie": "articles de sport",
+        "subs": []
+    },
+    {
+        "categorie": "usage viticulture",
+        "subs": []
+    },
+    {
+        "categorie": "consommables de bureau",
+        "subs": []
+    },
+    {
+        "categorie": "b\u00e2timents, ouvrages d'art et voirie",
+        "subs": [
+            "b\u00e2timents",
+            "voirie"
+        ]
+    },
+    {
+        "categorie": "b\u00e2timents",
+        "subs": []
+    },
+    {
+        "categorie": "voirie",
+        "subs": [
+            "glissi\u00e8re de s\u00e9curit\u00e9",
+            "parking",
+            "structure de la voirie"
+        ]
+    },
+    {
+        "categorie": "glissi\u00e8re de s\u00e9curit\u00e9",
+        "subs": []
+    },
+    {
+        "categorie": "parking",
+        "subs": []
+    },
+    {
+        "categorie": "structure de la voirie",
+        "subs": []
+    },
+    {
+        "categorie": "produits min\u00e9raux non m\u00e9talliques",
+        "subs": [
+            "ciment, chaux, pl\u00e2tre, b\u00e9ton",
+            "enrob\u00e9s pour la route",
+            "mat\u00e9riaux de construction",
+            "verres et articles en verre"
+        ]
+    },
+    {
+        "categorie": "ciment, chaux, pl\u00e2tre, b\u00e9ton",
+        "subs": []
+    },
+    {
+        "categorie": "enrob\u00e9s pour la route",
+        "subs": []
+    },
+    {
+        "categorie": "mat\u00e9riaux de construction",
+        "subs": []
+    },
+    {
+        "categorie": "verres et articles en verre",
+        "subs": [
+            "autres verres",
+            "verres creux / verres d'emballage",
+            "verres plats"
+        ]
+    },
+    {
+        "categorie": "autres verres",
+        "subs": []
+    },
+    {
+        "categorie": "verres creux / verres d'emballage",
+        "subs": []
+    },
+    {
+        "categorie": "verres plats",
+        "subs": []
+    },
+    {
+        "categorie": "bois",
+        "subs": [
+            "entr\u00e9es et plats compos\u00e9s",
+            "produits c\u00e9r\u00e9aliers",
+            "fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux",
+            "lait et produits laitiers",
+            "viandes, ?ufs, poissons",
+            "aides culinaires et ingr\u00e9dients divers",
+            "boissons",
+            "produits sucr\u00e9s",
+            "mati\u00e8res grasses",
+            "aliments infantiles",
+            "glaces et sorbets"
+        ]
+    },
+    {
+        "categorie": "entr\u00e9es et plats compos\u00e9s",
+        "subs": [
+            "salades compos\u00e9es et crudit\u00e9s",
+            "plats compos\u00e9s",
+            "feuillet\u00e9s et autres entr\u00e9es",
+            "soupes",
+            "sandwichs",
+            "pizzas, tartes et cr\u00eapes sal\u00e9es"
+        ]
+    },
+    {
+        "categorie": "salades compos\u00e9es et crudit\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "plats compos\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "feuillet\u00e9s et autres entr\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "soupes",
+        "subs": []
+    },
+    {
+        "categorie": "sandwichs",
+        "subs": []
+    },
+    {
+        "categorie": "pizzas, tartes et cr\u00eapes sal\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "produits c\u00e9r\u00e9aliers",
+        "subs": [
+            "pains et viennoiseries",
+            "c\u00e9r\u00e9ales de petit-d\u00e9jeuner et biscuits",
+            "p\u00e2tes, riz et c\u00e9r\u00e9ales",
+            "farines et p\u00e2tes \u00e0 tarte",
+            "g\u00e2teaux et p\u00e2tisseries"
+        ]
+    },
+    {
+        "categorie": "pains et viennoiseries",
+        "subs": []
+    },
+    {
+        "categorie": "c\u00e9r\u00e9ales de petit-d\u00e9jeuner et biscuits",
+        "subs": []
+    },
+    {
+        "categorie": "p\u00e2tes, riz et c\u00e9r\u00e9ales",
+        "subs": []
+    },
+    {
+        "categorie": "farines et p\u00e2tes \u00e0 tarte",
+        "subs": []
+    },
+    {
+        "categorie": "g\u00e2teaux et p\u00e2tisseries",
+        "subs": []
+    },
+    {
+        "categorie": "fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux",
+        "subs": [
+            "l\u00e9gumes",
+            "fruits",
+            "fruits \u00e0 coque et graines ol\u00e9agineuses",
+            "pommes de terre et autres tubercules",
+            "l\u00e9gumineuses"
+        ]
+    },
+    {
+        "categorie": "l\u00e9gumes",
+        "subs": []
+    },
+    {
+        "categorie": "fruits",
+        "subs": []
+    },
+    {
+        "categorie": "fruits \u00e0 coque et graines ol\u00e9agineuses",
+        "subs": []
+    },
+    {
+        "categorie": "pommes de terre et autres tubercules",
+        "subs": []
+    },
+    {
+        "categorie": "l\u00e9gumineuses",
+        "subs": []
+    },
+    {
+        "categorie": "lait et produits laitiers",
+        "subs": [
+            "fromages",
+            "produits laitiers frais et assimil\u00e9s",
+            "cr\u00e8mes et sp\u00e9cialit\u00e9s \u00e0 base de cr\u00e8me",
+            "laits"
+        ]
+    },
+    {
+        "categorie": "fromages",
+        "subs": []
+    },
+    {
+        "categorie": "produits laitiers frais et assimil\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "cr\u00e8mes et sp\u00e9cialit\u00e9s \u00e0 base de cr\u00e8me",
+        "subs": []
+    },
+    {
+        "categorie": "laits",
+        "subs": []
+    },
+    {
+        "categorie": "viandes, ?ufs, poissons",
+        "subs": [
+            "produits \u00e0 base de poissons et produits de la mer",
+            "viandes cuites",
+            "viandes crues",
+            "poissons crus",
+            "charcuteries",
+            "poissons cuits",
+            "autres produits \u00e0 base de viande",
+            "mollusques et crustac\u00e9s cuits",
+            "mollusques et crustac\u00e9s crus",
+            "oeufs"
+        ]
+    },
+    {
+        "categorie": "produits \u00e0 base de poissons et produits de la mer",
+        "subs": []
+    },
+    {
+        "categorie": "viandes cuites",
+        "subs": []
+    },
+    {
+        "categorie": "viandes crues",
+        "subs": []
+    },
+    {
+        "categorie": "poissons crus",
+        "subs": []
+    },
+    {
+        "categorie": "charcuteries",
+        "subs": []
+    },
+    {
+        "categorie": "poissons cuits",
+        "subs": []
+    },
+    {
+        "categorie": "autres produits \u00e0 base de viande",
+        "subs": []
+    },
+    {
+        "categorie": "mollusques et crustac\u00e9s cuits",
+        "subs": []
+    },
+    {
+        "categorie": "mollusques et crustac\u00e9s crus",
+        "subs": []
+    },
+    {
+        "categorie": "oeufs",
+        "subs": []
+    },
+    {
+        "categorie": "aides culinaires et ingr\u00e9dients divers",
+        "subs": [
+            "herbes",
+            "algues",
+            "ingr\u00e9dients divers",
+            "epices",
+            "aides culinaires",
+            "sauces",
+            "condiments",
+            "sels",
+            "denr\u00e9es destin\u00e9es \u00e0 une alimentation particuli\u00e8re"
+        ]
+    },
+    {
+        "categorie": "herbes",
+        "subs": []
+    },
+    {
+        "categorie": "algues",
+        "subs": []
+    },
+    {
+        "categorie": "ingr\u00e9dients divers",
+        "subs": []
+    },
+    {
+        "categorie": "epices",
+        "subs": []
+    },
+    {
+        "categorie": "aides culinaires",
+        "subs": []
+    },
+    {
+        "categorie": "sauces",
+        "subs": []
+    },
+    {
+        "categorie": "condiments",
+        "subs": []
+    },
+    {
+        "categorie": "sels",
+        "subs": []
+    },
+    {
+        "categorie": "denr\u00e9es destin\u00e9es \u00e0 une alimentation particuli\u00e8re",
+        "subs": []
+    },
+    {
+        "categorie": "boissons",
+        "subs": [
+            "boissons alcoolis\u00e9es",
+            "boissons sans alcool",
+            "eaux"
+        ]
+    },
+    {
+        "categorie": "boissons alcoolis\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "boissons sans alcool",
+        "subs": []
+    },
+    {
+        "categorie": "eaux",
+        "subs": []
+    },
+    {
+        "categorie": "produits sucr\u00e9s",
+        "subs": [
+            "chocolats et produits \u00e0 base de chocolat",
+            "confiseries non chocolat\u00e9es",
+            "confitures et assimil\u00e9s",
+            "sucres, miels et assimil\u00e9s"
+        ]
+    },
+    {
+        "categorie": "chocolats et produits \u00e0 base de chocolat",
+        "subs": []
+    },
+    {
+        "categorie": "confiseries non chocolat\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "confitures et assimil\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "sucres, miels et assimil\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "mati\u00e8res grasses",
+        "subs": [
+            "beurres",
+            "huiles et graisses v\u00e9g\u00e9tales",
+            "autres mati\u00e8res grasses",
+            "huiles de poissons",
+            "margarines"
+        ]
+    },
+    {
+        "categorie": "beurres",
+        "subs": []
+    },
+    {
+        "categorie": "huiles et graisses v\u00e9g\u00e9tales",
+        "subs": []
+    },
+    {
+        "categorie": "autres mati\u00e8res grasses",
+        "subs": []
+    },
+    {
+        "categorie": "huiles de poissons",
+        "subs": []
+    },
+    {
+        "categorie": "margarines",
+        "subs": []
+    },
+    {
+        "categorie": "aliments infantiles",
+        "subs": [
+            "c\u00e9r\u00e9ales et biscuits infantiles",
+            "laits et boissons infantiles",
+            "desserts infantiles",
+            "petits pots sal\u00e9s et plats infantiles"
+        ]
+    },
+    {
+        "categorie": "c\u00e9r\u00e9ales et biscuits infantiles",
+        "subs": []
+    },
+    {
+        "categorie": "laits et boissons infantiles",
+        "subs": []
+    },
+    {
+        "categorie": "desserts infantiles",
+        "subs": []
+    },
+    {
+        "categorie": "petits pots sal\u00e9s et plats infantiles",
+        "subs": []
+    },
+    {
+        "categorie": "glaces et sorbets",
+        "subs": [
+            "desserts glac\u00e9s",
+            "glaces",
+            "sorbets"
+        ]
+    },
+    {
+        "categorie": "desserts glac\u00e9s",
+        "subs": []
+    },
+    {
+        "categorie": "glaces",
+        "subs": []
+    },
+    {
+        "categorie": "sorbets",
+        "subs": []
+    },
+    {
+        "categorie": "papier, carton",
+        "subs": []
+    },
+    {
+        "categorie": "textile et habillement",
+        "subs": [
+            "autres",
+            "cuir",
+            "coton",
+            "synth\u00e9tique"
+        ]
+    },
+    {
+        "categorie": "autres",
+        "subs": []
+    },
+    {
+        "categorie": "cuir",
+        "subs": []
+    },
+    {
+        "categorie": "coton",
+        "subs": []
+    },
+    {
+        "categorie": "synth\u00e9tique",
+        "subs": []
+    },
+    {
+        "categorie": "hydrog\u00e8ne",
+        "subs": [
+            "production d'hydrog\u00e8ne",
+            "distribution en station"
+        ]
+    },
+    {
+        "categorie": "production d'hydrog\u00e8ne",
+        "subs": []
+    },
+    {
+        "categorie": "distribution en station",
+        "subs": []
+    },
+    {
+        "categorie": "eau,  traitement et distribution d'eau",
+        "subs": []
+    },
+    {
+        "categorie": "minerais, granulats",
+        "subs": [
+            "granulats",
+            "pierres de carri\u00e8re"
+        ]
+    },
+    {
+        "categorie": "granulats",
+        "subs": []
+    },
+    {
+        "categorie": "pierres de carri\u00e8re",
+        "subs": []
+    },
+    {
+        "categorie": "v\u00e9hicules automobiles et autres mat\u00e9riels de transport",
+        "subs": []
+    },
+    {
+        "categorie": "achats de services",
+        "subs": [
+            "autres services",
+            "restauration",
+            "ratios mon\u00e9taires"
+        ]
+    },
+    {
+        "categorie": "autres services",
+        "subs": []
+    },
+    {
+        "categorie": "restauration",
+        "subs": []
+    },
+    {
+        "categorie": "ratios mon\u00e9taires",
+        "subs": []
+    },
+    {
+        "categorie": "combustibles",
+        "subs": [
+            "fossiles",
+            "organiques"
+        ]
+    },
+    {
+        "categorie": "fossiles",
+        "subs": [
+            "solides",
+            "liquides",
+            "gazeux"
+        ]
+    },
+    {
+        "categorie": "solides",
+        "subs": [
+            "charbons",
+            "cokes",
+            "d\u00e9chets"
+        ]
+    },
+    {
+        "categorie": "charbons",
+        "subs": []
+    },
+    {
+        "categorie": "cokes",
+        "subs": []
+    },
+    {
+        "categorie": "d\u00e9chets",
+        "subs": []
+    },
+    {
+        "categorie": "liquides",
+        "subs": [
+            "usages sp\u00e9ciaux",
+            "usage sources mobiles",
+            "usage source fixe",
+            "p\u00e9trole brut"
+        ]
+    },
+    {
+        "categorie": "usages sp\u00e9ciaux",
+        "subs": []
+    },
+    {
+        "categorie": "usage sources mobiles",
+        "subs": [
+            "usage a\u00e9rien",
+            "usage routier",
+            "autres usages",
+            "usage maritime et fluvial"
+        ]
+    },
+    {
+        "categorie": "usage source fixe",
+        "subs": []
+    },
+    {
+        "categorie": "p\u00e9trole brut",
+        "subs": []
+    },
+    {
+        "categorie": "gazeux",
+        "subs": [
+            "propane et butane",
+            "gaz industriels",
+            "gaz naturel"
+        ]
+    },
+    {
+        "categorie": "propane et butane",
+        "subs": []
+    },
+    {
+        "categorie": "gaz industriels",
+        "subs": []
+    },
+    {
+        "categorie": "gaz naturel",
+        "subs": []
+    },
+    {
+        "categorie": "organiques",
+        "subs": [
+            "liquides",
+            "gazeux",
+            "solides"
+        ]
+    },
+    {
+        "categorie": "liquides",
+        "subs": []
+    },
+    {
+        "categorie": "gazeux",
+        "subs": []
+    },
+    {
+        "categorie": "solides",
+        "subs": []
+    },
+    {
+        "categorie": "transport de marchandises",
+        "subs": [
+            "routier",
+            "a\u00e9rien",
+            "fluvial",
+            "maritime",
+            "ferroviaire"
+        ]
+    },
+    {
+        "categorie": "routier",
+        "subs": [
+            "par cat\u00e9gorie",
+            "par usage"
+        ]
+    },
+    {
+        "categorie": "par cat\u00e9gorie",
+        "subs": [
+            "articul\u00e9 par motorisation",
+            "rigide par motorisation",
+            "vul par motorisation"
+        ]
+    },
+    {
+        "categorie": "articul\u00e9 par motorisation",
+        "subs": []
+    },
+    {
+        "categorie": "rigide par motorisation",
+        "subs": []
+    },
+    {
+        "categorie": "vul par motorisation",
+        "subs": []
+    },
+    {
+        "categorie": "par usage",
+        "subs": [
+            "d\u00e9m\u00e9nagement"
+        ]
+    },
+    {
+        "categorie": "d\u00e9m\u00e9nagement",
+        "subs": []
+    },
+    {
+        "categorie": "a\u00e9rien",
+        "subs": [
+            "avion cargo",
+            "avion passager"
+        ]
+    },
+    {
+        "categorie": "avion cargo",
+        "subs": [
+            "10 - 25 t : d\u00e9tail par kms parcourus",
+            "26 - 100 t : d\u00e9tail par kms parcourus",
+            ""
+        ]
+    },
+    {
+        "categorie": "10 - 25 t : d\u00e9tail par kms parcourus",
+        "subs": []
+    },
+    {
+        "categorie": "26 - 100 t : d\u00e9tail par kms parcourus",
+        "subs": []
+    },
+    {
+        "categorie": "",
+        "subs": [
+            "100 t : d\u00e9tail par kms parcourus"
+        ]
+    },
+    {
+        "categorie": "avion passager",
+        "subs": [
+            "capacit\u00e9 102-220 si\u00e8ges : d\u00e9tail par kms parcourus",
+            "capacit\u00e9 20-50 si\u00e8ges : d\u00e9tail par kms parcourus",
+            "capacit\u00e9 51-100 si\u00e8ges : d\u00e9tail par kms parcourus",
+            "capacit\u00e9",
+            "court, moyen, long courrier (valeurs moyennes)"
+        ]
+    },
+    {
+        "categorie": "capacit\u00e9 102-220 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "subs": []
+    },
+    {
+        "categorie": "capacit\u00e9 20-50 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "subs": []
+    },
+    {
+        "categorie": "capacit\u00e9 51-100 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "subs": []
+    },
+    {
+        "categorie": "capacit\u00e9",
+        "subs": [
+            "220 si\u00e8ges : d\u00e9tail par kms parcourus"
+        ]
+    },
+    {
+        "categorie": "court, moyen, long courrier (valeurs moyennes)",
+        "subs": []
+    },
+    {
+        "categorie": "fluvial",
+        "subs": [
+            "bateau automoteur",
+            "bateau pousseur"
+        ]
+    },
+    {
+        "categorie": "bateau automoteur",
+        "subs": []
+    },
+    {
+        "categorie": "bateau pousseur",
+        "subs": []
+    },
+    {
+        "categorie": "maritime",
+        "subs": [
+            "cargo",
+            "dom com",
+            "gaziers",
+            "p\u00e9troliers",
+            "porte-conteneur",
+            "rouliers",
+            "vraquiers"
+        ]
+    },
+    {
+        "categorie": "cargo",
+        "subs": []
+    },
+    {
+        "categorie": "dom com",
+        "subs": []
+    },
+    {
+        "categorie": "gaziers",
+        "subs": []
+    },
+    {
+        "categorie": "p\u00e9troliers",
+        "subs": []
+    },
+    {
+        "categorie": "porte-conteneur",
+        "subs": [
+            "liaisons d\u00e9taill\u00e9es",
+            "liaisons principales",
+            "moyenne mondiale"
+        ]
+    },
+    {
+        "categorie": "liaisons d\u00e9taill\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "liaisons principales",
+        "subs": []
+    },
+    {
+        "categorie": "moyenne mondiale",
+        "subs": []
+    },
+    {
+        "categorie": "rouliers",
+        "subs": []
+    },
+    {
+        "categorie": "vraquiers",
+        "subs": []
+    },
+    {
+        "categorie": "ferroviaire",
+        "subs": [
+            "france continentale",
+            "corse",
+            "autres pays du monde"
+        ]
+    },
+    {
+        "categorie": "france continentale",
+        "subs": [
+            "moyen",
+            "diesel",
+            "electrique"
+        ]
+    },
+    {
+        "categorie": "moyen",
+        "subs": []
+    },
+    {
+        "categorie": "diesel",
+        "subs": []
+    },
+    {
+        "categorie": "electrique",
+        "subs": []
+    },
+    {
+        "categorie": "corse",
+        "subs": []
+    },
+    {
+        "categorie": "autres pays du monde",
+        "subs": []
+    },
+    {
+        "categorie": "transport de personnes",
+        "subs": [
+            "routier",
+            "a\u00e9rien",
+            "ferroviaire",
+            "fluvial",
+            "maritime",
+            "transport guid\u00e9"
+        ]
+    },
+    {
+        "categorie": "routier",
+        "subs": [
+            "autobus - autocar",
+            "deux roues",
+            "taxi ? vtc",
+            "voiture particuli\u00e8re"
+        ]
+    },
+    {
+        "categorie": "autobus - autocar",
+        "subs": [
+            "par type de motorisation",
+            "moyenne (parc) - toutes motorisations"
+        ]
+    },
+    {
+        "categorie": "par type de motorisation",
+        "subs": []
+    },
+    {
+        "categorie": "moyenne (parc) - toutes motorisations",
+        "subs": []
+    },
+    {
+        "categorie": "deux roues",
+        "subs": []
+    },
+    {
+        "categorie": "taxi ? vtc",
+        "subs": [
+            "dom com"
+        ]
+    },
+    {
+        "categorie": "dom com",
+        "subs": []
+    },
+    {
+        "categorie": "voiture particuli\u00e8re",
+        "subs": [
+            "moyenne parc - toutes motorisations",
+            "par usage (courte distance, longue distance, mixte) - toutes motorisations",
+            "par gamme (toutes motorisations)"
+        ]
+    },
+    {
+        "categorie": "moyenne parc - toutes motorisations",
+        "subs": []
+    },
+    {
+        "categorie": "par usage (courte distance, longue distance, mixte) - toutes motorisations",
+        "subs": []
+    },
+    {
+        "categorie": "par gamme (toutes motorisations)",
+        "subs": []
+    },
+    {
+        "categorie": "a\u00e9rien",
+        "subs": [
+            "par capacit\u00e9 d'avion",
+            "court, moyen, long courrier (valeurs moyennes)"
+        ]
+    },
+    {
+        "categorie": "par capacit\u00e9 d'avion",
+        "subs": [
+            "capacit\u00e9 101-220 si\u00e8ges : d\u00e9tail par kms parcourus",
+            "capacit\u00e9 20-50 si\u00e8ges : d\u00e9tail par kms parcourus",
+            "capacit\u00e9 51-100 si\u00e8ges : d\u00e9tail par kms parcourus",
+            "capacit\u00e9"
+        ]
+    },
+    {
+        "categorie": "capacit\u00e9 101-220 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "subs": []
+    },
+    {
+        "categorie": "capacit\u00e9 20-50 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "subs": []
+    },
+    {
+        "categorie": "capacit\u00e9 51-100 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "subs": []
+    },
+    {
+        "categorie": "capacit\u00e9",
+        "subs": [
+            "220 si\u00e8ges : d\u00e9tail par kms parcourus"
+        ]
+    },
+    {
+        "categorie": "court, moyen, long courrier (valeurs moyennes)",
+        "subs": []
+    },
+    {
+        "categorie": "ferroviaire",
+        "subs": [
+            "france continentale",
+            "corse",
+            "autres pays du monde"
+        ]
+    },
+    {
+        "categorie": "france continentale",
+        "subs": [
+            "m\u00e9tro, tramway, rer, transilien (ile de france)",
+            "m\u00e9tro, tramway (autres villes)",
+            "ter",
+            "tgv",
+            "trains grandes lignes"
+        ]
+    },
+    {
+        "categorie": "m\u00e9tro, tramway, rer, transilien (ile de france)",
+        "subs": []
+    },
+    {
+        "categorie": "m\u00e9tro, tramway (autres villes)",
+        "subs": []
+    },
+    {
+        "categorie": "ter",
+        "subs": []
+    },
+    {
+        "categorie": "tgv",
+        "subs": []
+    },
+    {
+        "categorie": "trains grandes lignes",
+        "subs": []
+    },
+    {
+        "categorie": "corse",
+        "subs": []
+    },
+    {
+        "categorie": "autres pays du monde",
+        "subs": []
+    },
+    {
+        "categorie": "fluvial",
+        "subs": []
+    },
+    {
+        "categorie": "maritime",
+        "subs": [
+            "dom com"
+        ]
+    },
+    {
+        "categorie": "dom com",
+        "subs": []
+    },
+    {
+        "categorie": "transport guid\u00e9",
+        "subs": []
+    },
+    {
+        "categorie": "statistiques territoriales",
+        "subs": [
+            "agriculture"
+        ]
+    },
+    {
+        "categorie": "agriculture",
+        "subs": [
+            "consommation de carburant",
+            "fabrication d'engin / ha",
+            "fraises",
+            "serres"
+        ]
+    },
+    {
+        "categorie": "consommation de carburant",
+        "subs": []
+    },
+    {
+        "categorie": "fabrication d'engin / ha",
+        "subs": []
+    },
+    {
+        "categorie": "fraises",
+        "subs": []
+    },
+    {
+        "categorie": "serres",
+        "subs": [
+            "mara\u00eech\u00e8res",
+            "horticoles"
+        ]
+    },
+    {
+        "categorie": "mara\u00eech\u00e8res",
+        "subs": []
+    },
+    {
+        "categorie": "horticoles",
+        "subs": []
+    },
+    {
+        "categorie": "utcf",
+        "subs": [
+            "changement d'affectation des sols",
+            "for\u00eats fran\u00e7aises"
+        ]
+    },
+    {
+        "categorie": "changement d'affectation des sols",
+        "subs": []
+    },
+    {
+        "categorie": "for\u00eats fran\u00e7aises",
+        "subs": [
+            "aquitaine",
+            "limousin",
+            "picardie"
+        ]
+    },
+    {
+        "categorie": "aquitaine",
+        "subs": []
+    },
+    {
+        "categorie": "limousin",
+        "subs": []
+    },
+    {
+        "categorie": "picardie",
+        "subs": []
+    },
+    {
+        "categorie": "traitement des d\u00e9chets",
+        "subs": [
+            "activit\u00e9s economiques",
+            "m\u00e9nages et assimil\u00e9s",
+            "eaux us\u00e9es"
+        ]
+    },
+    {
+        "categorie": "activit\u00e9s economiques",
+        "subs": [
+            "d\u00e9chets dangereux",
+            "d\u00e9chets du b\u00e2timent",
+            "piles et accumulateurs portables",
+            "plastiques",
+            "emballages plastiques"
+        ]
+    },
+    {
+        "categorie": "d\u00e9chets dangereux",
+        "subs": []
+    },
+    {
+        "categorie": "d\u00e9chets du b\u00e2timent",
+        "subs": [
+            "m\u00e9taux",
+            "autres",
+            "plastiques"
+        ]
+    },
+    {
+        "categorie": "m\u00e9taux",
+        "subs": []
+    },
+    {
+        "categorie": "autres",
+        "subs": []
+    },
+    {
+        "categorie": "plastiques",
+        "subs": []
+    },
+    {
+        "categorie": "piles et accumulateurs portables",
+        "subs": []
+    },
+    {
+        "categorie": "plastiques",
+        "subs": []
+    },
+    {
+        "categorie": "emballages plastiques",
+        "subs": []
+    },
+    {
+        "categorie": "m\u00e9nages et assimil\u00e9s",
+        "subs": [
+            "dea",
+            "d\u00e9chets organiques",
+            "deee",
+            "emballages",
+            "ordures m\u00e9nag\u00e8res r\u00e9siduelles",
+            "piles et accumulateurs portables",
+            "textiles"
+        ]
+    },
+    {
+        "categorie": "dea",
+        "subs": []
+    },
+    {
+        "categorie": "d\u00e9chets organiques",
+        "subs": []
+    },
+    {
+        "categorie": "deee",
+        "subs": [
+            "d\u00e9chets d'equipements electriques et electroniques",
+            "ecrans cathode ray tube",
+            "ecrans plats",
+            "gros electrom\u00e9nager froid",
+            "gros electrom\u00e9nager hors froid",
+            "petits appareils en m\u00e9lange",
+            "tubes et lampes"
+        ]
+    },
+    {
+        "categorie": "d\u00e9chets d'equipements electriques et electroniques",
+        "subs": []
+    },
+    {
+        "categorie": "ecrans cathode ray tube",
+        "subs": []
+    },
+    {
+        "categorie": "ecrans plats",
+        "subs": []
+    },
+    {
+        "categorie": "gros electrom\u00e9nager froid",
+        "subs": []
+    },
+    {
+        "categorie": "gros electrom\u00e9nager hors froid",
+        "subs": []
+    },
+    {
+        "categorie": "petits appareils en m\u00e9lange",
+        "subs": []
+    },
+    {
+        "categorie": "tubes et lampes",
+        "subs": []
+    },
+    {
+        "categorie": "emballages",
+        "subs": [
+            "m\u00e9taux",
+            "plastiques autres r\u00e9sines ou plastiques complexes",
+            "bois",
+            "carton",
+            "autres materiaux",
+            "plastiques pe",
+            "plastiques pet",
+            "plastiques pp",
+            "plastiques ps-pse",
+            "plastiques pvc",
+            "verre"
+        ]
+    },
+    {
+        "categorie": "m\u00e9taux",
+        "subs": []
+    },
+    {
+        "categorie": "plastiques autres r\u00e9sines ou plastiques complexes",
+        "subs": []
+    },
+    {
+        "categorie": "bois",
+        "subs": []
+    },
+    {
+        "categorie": "carton",
+        "subs": []
+    },
+    {
+        "categorie": "autres materiaux",
+        "subs": []
+    },
+    {
+        "categorie": "plastiques pe",
+        "subs": []
+    },
+    {
+        "categorie": "plastiques pet",
+        "subs": []
+    },
+    {
+        "categorie": "plastiques pp",
+        "subs": []
+    },
+    {
+        "categorie": "plastiques ps-pse",
+        "subs": []
+    },
+    {
+        "categorie": "plastiques pvc",
+        "subs": []
+    },
+    {
+        "categorie": "verre",
+        "subs": []
+    },
+    {
+        "categorie": "ordures m\u00e9nag\u00e8res r\u00e9siduelles",
+        "subs": []
+    },
+    {
+        "categorie": "piles et accumulateurs portables",
+        "subs": []
+    },
+    {
+        "categorie": "textiles",
+        "subs": []
+    },
+    {
+        "categorie": "eaux us\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "process et \u00e9missions fugitives",
+        "subs": [
+            "process industriels",
+            "agriculture",
+            "d\u00e9chets"
+        ]
+    },
+    {
+        "categorie": "process industriels",
+        "subs": [
+            "decarbonation"
+        ]
+    },
+    {
+        "categorie": "decarbonation",
+        "subs": []
+    },
+    {
+        "categorie": "agriculture",
+        "subs": [
+            "sols agricoles"
+        ]
+    },
+    {
+        "categorie": "sols agricoles",
+        "subs": []
+    },
+    {
+        "categorie": "d\u00e9chets",
+        "subs": [
+            "traitement des eaux us\u00e9es"
+        ]
+    },
+    {
+        "categorie": "traitement des eaux us\u00e9es",
+        "subs": [
+            "eaux us\u00e9es urbaines"
+        ]
+    },
+    {
+        "categorie": "eaux us\u00e9es urbaines",
+        "subs": []
+    },
+    {
+        "categorie": "electricit\u00e9",
+        "subs": [
+            "mix r\u00e9seau \u00e9lectrique",
+            "moyen de production"
+        ]
+    },
+    {
+        "categorie": "mix r\u00e9seau \u00e9lectrique",
+        "subs": [
+            "france continentale",
+            "autres pays du monde",
+            "outre mer"
+        ]
+    },
+    {
+        "categorie": "france continentale",
+        "subs": [
+            "moyen",
+            "d\u00e9coupage par usages"
+        ]
+    },
+    {
+        "categorie": "moyen",
+        "subs": []
+    },
+    {
+        "categorie": "d\u00e9coupage par usages",
+        "subs": [
+            "m\u00e9thode saisonnalis\u00e9e",
+            "m\u00e9thode moyenne"
+        ]
+    },
+    {
+        "categorie": "autres pays du monde",
+        "subs": []
+    },
+    {
+        "categorie": "outre mer",
+        "subs": []
+    },
+    {
+        "categorie": "moyen de production",
+        "subs": [
+            "conventionnels",
+            "renouvelables"
+        ]
+    },
+    {
+        "categorie": "conventionnels",
+        "subs": []
+    },
+    {
+        "categorie": "renouvelables",
+        "subs": []
+    },
+    {
+        "categorie": "r\u00e9seaux de chaleur / froid",
+        "subs": [
+            "rh\u00f4ne-alpes",
+            "champagne-ardenne",
+            "languedoc-roussillon",
+            "midi-pyr\u00e9n\u00e9es",
+            "provence-alpes-c\u00f4te d'azur",
+            "basse-normandie",
+            "auvergne",
+            "poitou-charentes",
+            "centre",
+            "limousin",
+            "picardie",
+            "corse",
+            "bourgogne",
+            "bretagne",
+            "aquitaine",
+            "franche-comt\u00e9",
+            "haute-normandie",
+            "pays de la loire",
+            "lorraine",
+            "nord-pas-de-calais",
+            "alsace",
+            "\u00eele-de-france"
+        ]
+    },
+    {
+        "categorie": "rh\u00f4ne-alpes",
+        "subs": [
+            "1. ain",
+            "26. dr\u00f4me",
+            "38. is\u00e8re",
+            "42. loire",
+            "69. rh\u00f4ne",
+            "7. ard\u00e8che",
+            "73. savoie",
+            "74. haute-savoie"
+        ]
+    },
+    {
+        "categorie": "1. ain",
+        "subs": []
+    },
+    {
+        "categorie": "26. dr\u00f4me",
+        "subs": []
+    },
+    {
+        "categorie": "38. is\u00e8re",
+        "subs": []
+    },
+    {
+        "categorie": "42. loire",
+        "subs": []
+    },
+    {
+        "categorie": "69. rh\u00f4ne",
+        "subs": []
+    },
+    {
+        "categorie": "7. ard\u00e8che",
+        "subs": []
+    },
+    {
+        "categorie": "73. savoie",
+        "subs": []
+    },
+    {
+        "categorie": "74. haute-savoie",
+        "subs": []
+    },
+    {
+        "categorie": "champagne-ardenne",
+        "subs": []
+    },
+    {
+        "categorie": "languedoc-roussillon",
+        "subs": []
+    },
+    {
+        "categorie": "midi-pyr\u00e9n\u00e9es",
+        "subs": []
+    },
+    {
+        "categorie": "provence-alpes-c\u00f4te d'azur",
+        "subs": []
+    },
+    {
+        "categorie": "basse-normandie",
+        "subs": []
+    },
+    {
+        "categorie": "auvergne",
+        "subs": []
+    },
+    {
+        "categorie": "poitou-charentes",
+        "subs": []
+    },
+    {
+        "categorie": "centre",
+        "subs": []
+    },
+    {
+        "categorie": "limousin",
+        "subs": []
+    },
+    {
+        "categorie": "picardie",
+        "subs": []
+    },
+    {
+        "categorie": "corse",
+        "subs": []
+    },
+    {
+        "categorie": "bourgogne",
+        "subs": []
+    },
+    {
+        "categorie": "bretagne",
+        "subs": []
+    },
+    {
+        "categorie": "aquitaine",
+        "subs": []
+    },
+    {
+        "categorie": "franche-comt\u00e9",
+        "subs": []
+    },
+    {
+        "categorie": "haute-normandie",
+        "subs": []
+    },
+    {
+        "categorie": "pays de la loire",
+        "subs": []
+    },
+    {
+        "categorie": "lorraine",
+        "subs": []
+    },
+    {
+        "categorie": "nord-pas-de-calais",
+        "subs": []
+    },
+    {
+        "categorie": "alsace",
+        "subs": []
+    },
+    {
+        "categorie": "\u00eele-de-france",
+        "subs": [
+            "75. paris",
+            "77. seine-et-marne",
+            "78. yvelines",
+            "91. essonne",
+            "92. hauts-de-seine",
+            "93. seine-saint-denis",
+            "94. val de marne",
+            "95. val-d'oise"
+        ]
+    },
+    {
+        "categorie": "75. paris",
+        "subs": []
+    },
+    {
+        "categorie": "77. seine-et-marne",
+        "subs": []
+    },
+    {
+        "categorie": "78. yvelines",
+        "subs": []
+    },
+    {
+        "categorie": "91. essonne",
+        "subs": []
+    },
+    {
+        "categorie": "92. hauts-de-seine",
+        "subs": []
+    },
+    {
+        "categorie": "93. seine-saint-denis",
+        "subs": []
+    },
+    {
+        "categorie": "94. val de marne",
+        "subs": []
+    },
+    {
+        "categorie": "95. val-d'oise",
+        "subs": []
+    }
+]

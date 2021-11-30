@@ -1,0 +1,169 @@
+[
+    {
+        "type_ligne": [
+            "El\u00e9ment",
+            "Poste"
+        ]
+    },
+    {
+        "identifiant_de_l_element": null
+    },
+    {
+        "structure": [
+            "\u00e9l\u00e9ment non d\u00e9compos\u00e9",
+            "\u00e9l\u00e9ment d\u00e9compos\u00e9 par poste",
+            "\u00e9l\u00e9ment d\u00e9compos\u00e9 par poste et par gaz",
+            "\u00e9l\u00e9ment d\u00e9compos\u00e9 par gaz"
+        ]
+    },
+    {
+        "type_de_l_element": [
+            "Facteur d'\u00e9mission",
+            "Donn\u00e9es source"
+        ]
+    },
+    {
+        "statut_de_l_element": [
+            "Valide g\u00e9n\u00e9rique",
+            "Archiv\u00e9",
+            "Valide sp\u00e9cifique",
+            "Refus\u00e9",
+            "En discussion",
+            "Supprim\u00e9",
+            "En brouillon"
+        ]
+    },
+    {
+        "nom_base_francais": null
+    },
+    {
+        "nom_base_anglais": null
+    },
+    {
+        "nom_attribut_francais": null
+    },
+    {
+        "nom_attribut_anglais": null
+    },
+    {
+        "nom_frontiere_francais": null
+    },
+    {
+        "nom_frontiere_anglais": null
+    },
+    {
+        "code_de_la_categorie": null
+    },
+    {
+        "tags_francais": null
+    },
+    {
+        "tags_anglais": null
+    },
+    {
+        "unite_francais": null
+    },
+    {
+        "unite_anglais": null
+    },
+    {
+        "localisation_geographique": [
+            "France continentale",
+            "Outre-mer",
+            "Monde",
+            "Autre pays du monde",
+            "Europe"
+        ]
+    },
+    {
+        "sous_localisation_geographique_francais": null
+    },
+    {
+        "sous_localisation_geographique_anglais": null
+    },
+    {
+        "periode_de_validite": null
+    },
+    {
+        "incertitude": [
+            30,
+            50,
+            5,
+            20,
+            10,
+            70,
+            60,
+            15,
+            100,
+            80,
+            25,
+            40,
+            22,
+            14,
+            16,
+            18,
+            400,
+            11,
+            19,
+            26,
+            13,
+            24,
+            29,
+            44,
+            12,
+            35,
+            75,
+            33,
+            45
+        ]
+    },
+    {
+        "transparence": [
+            5,
+            3,
+            4,
+            4.5,
+            2
+        ]
+    },
+    {
+        "type_poste": [
+            "Amont",
+            "Combustion",
+            "Energie",
+            "Combustion \u00e0 la centrale",
+            "Transport et distribution",
+            "Transport",
+            "Intrants",
+            "Fabrication",
+            "Emissions fugitives",
+            "Collecte",
+            "Traitement",
+            "Incin\u00e9ration",
+            "Fuites",
+            "Autre",
+            "Amortissement"
+        ]
+    },
+    {
+        "total_poste_non_decompose": null
+    },
+    {
+        "co2f": null
+    },
+    {
+        "ch4f": null
+    },
+    {
+        "ch4b": null
+    },
+    {
+        "n2o": null
+    },
+    {
+        "autres_ges": null
+    },
+    {
+        "co2b": null
+    }
+]

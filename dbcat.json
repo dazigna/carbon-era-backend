@@ -1,0 +1,2226 @@
+[
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Entr\u00e9es et plats compos\u00e9s > Salades compos\u00e9es et crudit\u00e9s",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"entr\u00e9es et plats compos\u00e9s",
+        "cat3":"salades compos\u00e9es et crudit\u00e9s",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Produits c\u00e9r\u00e9aliers > Pains et viennoiseries",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"produits c\u00e9r\u00e9aliers",
+        "cat3":"pains et viennoiseries",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Produits c\u00e9r\u00e9aliers > C\u00e9r\u00e9ales de petit-d\u00e9jeuner et biscuits",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"produits c\u00e9r\u00e9aliers",
+        "cat3":"c\u00e9r\u00e9ales de petit-d\u00e9jeuner et biscuits",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux > L\u00e9gumes",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux",
+        "cat3":"l\u00e9gumes",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de services > Autres services",
+        "cat0":"achats de services",
+        "cat1":"autres services",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Lait et produits laitiers > Fromages",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"lait et produits laitiers",
+        "cat3":"fromages",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux > Fruits",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux",
+        "cat3":"fruits",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Viandes, ?ufs, poissons > Produits \u00e0 base de poissons et produits de la mer",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"viandes, ?ufs, poissons",
+        "cat3":"produits \u00e0 base de poissons et produits de la mer",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Produits chimiques > Produits chimiques de base",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"produits chimiques",
+        "cat3":"produits chimiques de base",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Produits chimiques > Engrais, phytosanitaires... > Produits chimiques sp\u00e9cifiques \u00e0 la viticulture",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"produits chimiques",
+        "cat3":"engrais, phytosanitaires...",
+        "cat4":"produits chimiques sp\u00e9cifiques \u00e0 la viticulture"
+    },
+    {
+        "catcategories":"Achats de biens > M\u00e9taux et produits m\u00e9talliques > Acier",
+        "cat0":"achats de biens",
+        "cat1":"m\u00e9taux et produits m\u00e9talliques",
+        "cat2":"acier",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Produits chimiques > Peintures et r\u00e9sines",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"produits chimiques",
+        "cat3":"peintures et r\u00e9sines",
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Solides > Charbons",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"solides",
+        "cat3":"charbons",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits animaux > Ovins",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits animaux",
+        "cat3":"ovins",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Viandes, ?ufs, poissons > Viandes cuites",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"viandes, ?ufs, poissons",
+        "cat3":"viandes cuites",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Viandes, ?ufs, poissons > Viandes crues",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"viandes, ?ufs, poissons",
+        "cat3":"viandes crues",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aides culinaires et ingr\u00e9dients divers > Herbes",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aides culinaires et ingr\u00e9dients divers",
+        "cat3":"herbes",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Machines et \u00e9quipements > Equipements \u00e9lectriques",
+        "cat0":"achats de biens",
+        "cat1":"machines et \u00e9quipements",
+        "cat2":"equipements \u00e9lectriques",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits de la mer > P\u00eache",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits de la mer",
+        "cat3":"p\u00eache",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Boissons > Boissons alcoolis\u00e9es",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"boissons",
+        "cat3":"boissons alcoolis\u00e9es",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aides culinaires et ingr\u00e9dients divers > Algues",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aides culinaires et ingr\u00e9dients divers",
+        "cat3":"algues",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits de la mer > Aquaculture",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits de la mer",
+        "cat3":"aquaculture",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Entr\u00e9es et plats compos\u00e9s > Plats compos\u00e9s",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"entr\u00e9es et plats compos\u00e9s",
+        "cat3":"plats compos\u00e9s",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de services > Restauration",
+        "cat0":"achats de services",
+        "cat1":"restauration",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > M\u00e9taux et produits m\u00e9talliques > Aluminium",
+        "cat0":"achats de biens",
+        "cat1":"m\u00e9taux et produits m\u00e9talliques",
+        "cat2":"aluminium",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux > Fruits \u00e0 coque et graines ol\u00e9agineuses",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux",
+        "cat3":"fruits \u00e0 coque et graines ol\u00e9agineuses",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Produits c\u00e9r\u00e9aliers > P\u00e2tes, riz et c\u00e9r\u00e9ales",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"produits c\u00e9r\u00e9aliers",
+        "cat3":"p\u00e2tes, riz et c\u00e9r\u00e9ales",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Produits c\u00e9r\u00e9aliers > Farines et p\u00e2tes \u00e0 tarte",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"produits c\u00e9r\u00e9aliers",
+        "cat3":"farines et p\u00e2tes \u00e0 tarte",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Produits chimiques > Engrais, phytosanitaires... > Engrais et compos\u00e9s azot\u00e9s",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"produits chimiques",
+        "cat3":"engrais, phytosanitaires...",
+        "cat4":"engrais et compos\u00e9s azot\u00e9s"
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits v\u00e9g\u00e9taux > Fruits",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits v\u00e9g\u00e9taux",
+        "cat3":"fruits",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Viandes, ?ufs, poissons > Poissons crus",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"viandes, ?ufs, poissons",
+        "cat3":"poissons crus",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Viandes, ?ufs, poissons > Charcuteries",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"viandes, ?ufs, poissons",
+        "cat3":"charcuteries",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Machines et \u00e9quipements > Electrom\u00e9nager",
+        "cat0":"achats de biens",
+        "cat1":"machines et \u00e9quipements",
+        "cat2":"electrom\u00e9nager",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Machines et \u00e9quipements > Informatique et \u00e9quipements \u00e9lectroniques",
+        "cat0":"achats de biens",
+        "cat1":"machines et \u00e9quipements",
+        "cat2":"informatique et \u00e9quipements \u00e9lectroniques",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits v\u00e9g\u00e9taux > Autres produits v\u00e9g\u00e9taux",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits v\u00e9g\u00e9taux",
+        "cat3":"autres produits v\u00e9g\u00e9taux",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Mobilier",
+        "cat0":"achats de biens",
+        "cat1":"mobilier",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Routier > Par cat\u00e9gorie > Articul\u00e9 par motorisation",
+        "cat0":"transport de marchandises",
+        "cat1":"routier",
+        "cat2":"par cat\u00e9gorie",
+        "cat3":"articul\u00e9 par motorisation",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Routier > Par usage > D\u00e9m\u00e9nagement",
+        "cat0":"transport de marchandises",
+        "cat1":"routier",
+        "cat2":"par usage",
+        "cat3":"d\u00e9m\u00e9nagement",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Routier > Autobus - Autocar > Par type de motorisation",
+        "cat0":"transport de personnes",
+        "cat1":"routier",
+        "cat2":"autobus - autocar",
+        "cat3":"par type de motorisation",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Routier > Autobus - Autocar > Moyenne (Parc) - Toutes motorisations",
+        "cat0":"transport de personnes",
+        "cat1":"routier",
+        "cat2":"autobus - autocar",
+        "cat3":"moyenne (parc) - toutes motorisations",
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Liquides > Usages sp\u00e9ciaux",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"liquides",
+        "cat3":"usages sp\u00e9ciaux",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > A\u00e9rien > Avion Cargo > 10 - 25 t : d\u00e9tail par kms parcourus",
+        "cat0":"transport de marchandises",
+        "cat1":"a\u00e9rien",
+        "cat2":"avion cargo",
+        "cat3":"10 - 25 t : d\u00e9tail par kms parcourus",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > A\u00e9rien > Avion Cargo > 26 - 100 t : d\u00e9tail par kms parcourus",
+        "cat0":"transport de marchandises",
+        "cat1":"a\u00e9rien",
+        "cat2":"avion cargo",
+        "cat3":"26 - 100 t : d\u00e9tail par kms parcourus",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > A\u00e9rien > Avion Cargo > >100 t : d\u00e9tail par kms parcourus",
+        "cat0":"transport de marchandises",
+        "cat1":"a\u00e9rien",
+        "cat2":"avion cargo",
+        "cat3":"",
+        "cat4":"100 t : d\u00e9tail par kms parcourus"
+    },
+    {
+        "catcategories":"Transport de marchandises > A\u00e9rien > Avion passager > Capacit\u00e9 102-220 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat0":"transport de marchandises",
+        "cat1":"a\u00e9rien",
+        "cat2":"avion passager",
+        "cat3":"capacit\u00e9 102-220 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > A\u00e9rien > Par capacit\u00e9 d'avion > Capacit\u00e9 101-220 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat0":"transport de personnes",
+        "cat1":"a\u00e9rien",
+        "cat2":"par capacit\u00e9 d'avion",
+        "cat3":"capacit\u00e9 101-220 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > A\u00e9rien > Avion passager > Capacit\u00e9 20-50 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat0":"transport de marchandises",
+        "cat1":"a\u00e9rien",
+        "cat2":"avion passager",
+        "cat3":"capacit\u00e9 20-50 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > A\u00e9rien > Par capacit\u00e9 d'avion > Capacit\u00e9 20-50 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat0":"transport de personnes",
+        "cat1":"a\u00e9rien",
+        "cat2":"par capacit\u00e9 d'avion",
+        "cat3":"capacit\u00e9 20-50 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > A\u00e9rien > Avion passager > Capacit\u00e9 51-100 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat0":"transport de marchandises",
+        "cat1":"a\u00e9rien",
+        "cat2":"avion passager",
+        "cat3":"capacit\u00e9 51-100 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > A\u00e9rien > Par capacit\u00e9 d'avion > Capacit\u00e9 51-100 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat0":"transport de personnes",
+        "cat1":"a\u00e9rien",
+        "cat2":"par capacit\u00e9 d'avion",
+        "cat3":"capacit\u00e9 51-100 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > A\u00e9rien > Avion passager > Capacit\u00e9 >220 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat0":"transport de marchandises",
+        "cat1":"a\u00e9rien",
+        "cat2":"avion passager",
+        "cat3":"capacit\u00e9",
+        "cat4":"220 si\u00e8ges : d\u00e9tail par kms parcourus"
+    },
+    {
+        "catcategories":"Transport de personnes > A\u00e9rien > Par capacit\u00e9 d'avion > Capacit\u00e9 >220 si\u00e8ges : d\u00e9tail par kms parcourus",
+        "cat0":"transport de personnes",
+        "cat1":"a\u00e9rien",
+        "cat2":"par capacit\u00e9 d'avion",
+        "cat3":"capacit\u00e9",
+        "cat4":"220 si\u00e8ges : d\u00e9tail par kms parcourus"
+    },
+    {
+        "catcategories":"Transport de marchandises > A\u00e9rien > Avion passager > Court, Moyen, Long courrier (Valeurs moyennes)",
+        "cat0":"transport de marchandises",
+        "cat1":"a\u00e9rien",
+        "cat2":"avion passager",
+        "cat3":"court, moyen, long courrier (valeurs moyennes)",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > A\u00e9rien > Court, Moyen, Long courrier (Valeurs moyennes)",
+        "cat0":"transport de personnes",
+        "cat1":"a\u00e9rien",
+        "cat2":"court, moyen, long courrier (valeurs moyennes)",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits v\u00e9g\u00e9taux > C\u00e9r\u00e9ales",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits v\u00e9g\u00e9taux",
+        "cat3":"c\u00e9r\u00e9ales",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Produits c\u00e9r\u00e9aliers > G\u00e2teaux et p\u00e2tisseries",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"produits c\u00e9r\u00e9aliers",
+        "cat3":"g\u00e2teaux et p\u00e2tisseries",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Autres produits manufactur\u00e9s > Articles de sport",
+        "cat0":"achats de biens",
+        "cat1":"autres produits manufactur\u00e9s",
+        "cat2":"articles de sport",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits v\u00e9g\u00e9taux > L\u00e9gumineuses",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits v\u00e9g\u00e9taux",
+        "cat3":"l\u00e9gumineuses",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux > Pommes de terre et autres tubercules",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux",
+        "cat3":"pommes de terre et autres tubercules",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Produits chimiques > Engrais, phytosanitaires... > Phytosanitaires",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"produits chimiques",
+        "cat3":"engrais, phytosanitaires...",
+        "cat4":"phytosanitaires"
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Viandes, ?ufs, poissons > Poissons cuits",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"viandes, ?ufs, poissons",
+        "cat3":"poissons cuits",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Produits sucr\u00e9s > Chocolats et produits \u00e0 base de chocolat",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"produits sucr\u00e9s",
+        "cat3":"chocolats et produits \u00e0 base de chocolat",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aides culinaires et ingr\u00e9dients divers > Ingr\u00e9dients divers",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aides culinaires et ingr\u00e9dients divers",
+        "cat3":"ingr\u00e9dients divers",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Fluvial > Bateau automoteur",
+        "cat0":"transport de marchandises",
+        "cat1":"fluvial",
+        "cat2":"bateau automoteur",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Fluvial > Bateau pousseur",
+        "cat0":"transport de marchandises",
+        "cat1":"fluvial",
+        "cat2":"bateau pousseur",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > B\u00e2timents, ouvrages d'art et voirie > B\u00e2timents",
+        "cat0":"achats de biens",
+        "cat1":"b\u00e2timents, ouvrages d'art et voirie",
+        "cat2":"b\u00e2timents",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Entr\u00e9es et plats compos\u00e9s > Feuillet\u00e9s et autres entr\u00e9es",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"entr\u00e9es et plats compos\u00e9s",
+        "cat3":"feuillet\u00e9s et autres entr\u00e9es",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits min\u00e9raux non m\u00e9talliques > Ciment, chaux, pl\u00e2tre, b\u00e9ton",
+        "cat0":"achats de biens",
+        "cat1":"produits min\u00e9raux non m\u00e9talliques",
+        "cat2":"ciment, chaux, pl\u00e2tre, b\u00e9ton",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits min\u00e9raux non m\u00e9talliques > Enrob\u00e9s pour la route",
+        "cat0":"achats de biens",
+        "cat1":"produits min\u00e9raux non m\u00e9talliques",
+        "cat2":"enrob\u00e9s pour la route",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Statistiques territoriales > Agriculture > Consommation de carburant",
+        "cat0":"statistiques territoriales",
+        "cat1":"agriculture",
+        "cat2":"consommation de carburant",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Statistiques territoriales > Agriculture > Fabrication d'engin \/ ha",
+        "cat0":"statistiques territoriales",
+        "cat1":"agriculture",
+        "cat2":"fabrication d'engin \/ ha",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits v\u00e9g\u00e9taux > L\u00e9gumes, racines et tubercules",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits v\u00e9g\u00e9taux",
+        "cat3":"l\u00e9gumes, racines et tubercules",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Mati\u00e8res grasses > Beurres",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"mati\u00e8res grasses",
+        "cat3":"beurres",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Mati\u00e8res grasses > Huiles et graisses v\u00e9g\u00e9tales",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"mati\u00e8res grasses",
+        "cat3":"huiles et graisses v\u00e9g\u00e9tales",
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Organiques > Liquides",
+        "cat0":"combustibles",
+        "cat1":"organiques",
+        "cat2":"liquides",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Organiques > Gazeux",
+        "cat0":"combustibles",
+        "cat1":"organiques",
+        "cat2":"gazeux",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aliments infantiles > C\u00e9r\u00e9ales et biscuits infantiles",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aliments infantiles",
+        "cat3":"c\u00e9r\u00e9ales et biscuits infantiles",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Viandes, ?ufs, poissons > Autres produits \u00e0 base de viande",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"viandes, ?ufs, poissons",
+        "cat3":"autres produits \u00e0 base de viande",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits animaux > Bovins",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits animaux",
+        "cat3":"bovins",
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Organiques > Solides",
+        "cat0":"combustibles",
+        "cat1":"organiques",
+        "cat2":"solides",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Bois",
+        "cat0":"achats de biens",
+        "cat1":"bois",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Boissons > Boissons sans alcool",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"boissons",
+        "cat3":"boissons sans alcool",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aliments infantiles > Laits et boissons infantiles",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aliments infantiles",
+        "cat3":"laits et boissons infantiles",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Lait et produits laitiers > Produits laitiers frais et assimil\u00e9s",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"lait et produits laitiers",
+        "cat3":"produits laitiers frais et assimil\u00e9s",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Produits sucr\u00e9s > Confiseries non chocolat\u00e9es",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"produits sucr\u00e9s",
+        "cat3":"confiseries non chocolat\u00e9es",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Autres produits manufactur\u00e9s > Usage viticulture",
+        "cat0":"achats de biens",
+        "cat1":"autres produits manufactur\u00e9s",
+        "cat2":"usage viticulture",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Entr\u00e9es et plats compos\u00e9s > Soupes",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"entr\u00e9es et plats compos\u00e9s",
+        "cat3":"soupes",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Glaces et sorbets > Desserts glac\u00e9s",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"glaces et sorbets",
+        "cat3":"desserts glac\u00e9s",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Entr\u00e9es et plats compos\u00e9s > Sandwichs",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"entr\u00e9es et plats compos\u00e9s",
+        "cat3":"sandwichs",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Entr\u00e9es et plats compos\u00e9s > Pizzas, tartes et cr\u00eapes sal\u00e9es",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"entr\u00e9es et plats compos\u00e9s",
+        "cat3":"pizzas, tartes et cr\u00eapes sal\u00e9es",
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Gazeux > Propane et butane",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"gazeux",
+        "cat3":"propane et butane",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits v\u00e9g\u00e9taux > Plantes \u00e0 boisson et aromatiques",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits v\u00e9g\u00e9taux",
+        "cat3":"plantes \u00e0 boisson et aromatiques",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Viandes, ?ufs, poissons > Mollusques et crustac\u00e9s cuits",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"viandes, ?ufs, poissons",
+        "cat3":"mollusques et crustac\u00e9s cuits",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Viandes, ?ufs, poissons > Mollusques et crustac\u00e9s crus",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"viandes, ?ufs, poissons",
+        "cat3":"mollusques et crustac\u00e9s crus",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits min\u00e9raux non m\u00e9talliques > Mat\u00e9riaux de construction",
+        "cat0":"achats de biens",
+        "cat1":"produits min\u00e9raux non m\u00e9talliques",
+        "cat2":"mat\u00e9riaux de construction",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits animaux > Volailles > Autres volailles",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits animaux",
+        "cat3":"volailles",
+        "cat4":"autres volailles"
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aides culinaires et ingr\u00e9dients divers > Epices",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aides culinaires et ingr\u00e9dients divers",
+        "cat3":"epices",
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Liquides > Usage sources mobiles > Usage a\u00e9rien",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"liquides",
+        "cat3":"usage sources mobiles",
+        "cat4":"usage a\u00e9rien"
+    },
+    {
+        "catcategories":"Transport de marchandises > Maritime > Cargo",
+        "cat0":"transport de marchandises",
+        "cat1":"maritime",
+        "cat2":"cargo",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Maritime > DOM COM",
+        "cat0":"transport de marchandises",
+        "cat1":"maritime",
+        "cat2":"dom com",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Papier, carton",
+        "cat0":"achats de biens",
+        "cat1":"papier, carton",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Autres produits manufactur\u00e9s > Consommables de bureau",
+        "cat0":"achats de biens",
+        "cat1":"autres produits manufactur\u00e9s",
+        "cat2":"consommables de bureau",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"UTCF > Changement d'affectation des sols",
+        "cat0":"utcf",
+        "cat1":"changement d'affectation des sols",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Textile et habillement > Autres",
+        "cat0":"achats de biens",
+        "cat1":"textile et habillement",
+        "cat2":"autres",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Textile et habillement > Cuir",
+        "cat0":"achats de biens",
+        "cat1":"textile et habillement",
+        "cat2":"cuir",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Textile et habillement > Coton",
+        "cat0":"achats de biens",
+        "cat1":"textile et habillement",
+        "cat2":"coton",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Textile et habillement > Synth\u00e9tique",
+        "cat0":"achats de biens",
+        "cat1":"textile et habillement",
+        "cat2":"synth\u00e9tique",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Solides > Cokes",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"solides",
+        "cat3":"cokes",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits v\u00e9g\u00e9taux > Ol\u00e9agineux",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits v\u00e9g\u00e9taux",
+        "cat3":"ol\u00e9agineux",
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Liquides > Usage source fixe",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"liquides",
+        "cat3":"usage source fixe",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Hydrog\u00e8ne > Production d'hydrog\u00e8ne",
+        "cat0":"achats de biens",
+        "cat1":"hydrog\u00e8ne",
+        "cat2":"production d'hydrog\u00e8ne",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Produits sucr\u00e9s > Confitures et assimil\u00e9s",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"produits sucr\u00e9s",
+        "cat3":"confitures et assimil\u00e9s",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aides culinaires et ingr\u00e9dients divers > Aides culinaires",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aides culinaires et ingr\u00e9dients divers",
+        "cat3":"aides culinaires",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aides culinaires et ingr\u00e9dients divers > Sauces",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aides culinaires et ingr\u00e9dients divers",
+        "cat3":"sauces",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Lait et produits laitiers > Cr\u00e8mes et sp\u00e9cialit\u00e9s \u00e0 base de cr\u00e8me",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"lait et produits laitiers",
+        "cat3":"cr\u00e8mes et sp\u00e9cialit\u00e9s \u00e0 base de cr\u00e8me",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > M\u00e9taux et produits m\u00e9talliques > Cuivre",
+        "cat0":"achats de biens",
+        "cat1":"m\u00e9taux et produits m\u00e9talliques",
+        "cat2":"cuivre",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Routier > Deux roues",
+        "cat0":"transport de personnes",
+        "cat1":"routier",
+        "cat2":"deux roues",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > Activit\u00e9s Economiques > D\u00e9chets Dangereux",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"activit\u00e9s economiques",
+        "cat2":"d\u00e9chets dangereux",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > DEA",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"dea",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Process et \u00e9missions fugitives > Process industriels > Decarbonation",
+        "cat0":"process et \u00e9missions fugitives",
+        "cat1":"process industriels",
+        "cat2":"decarbonation",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > D\u00e9chets Organiques",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"d\u00e9chets organiques",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > Activit\u00e9s Economiques > D\u00e9chets du b\u00e2timent > M\u00e9taux",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"activit\u00e9s economiques",
+        "cat2":"d\u00e9chets du b\u00e2timent",
+        "cat3":"m\u00e9taux",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > Activit\u00e9s Economiques > D\u00e9chets du b\u00e2timent > Autres",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"activit\u00e9s economiques",
+        "cat2":"d\u00e9chets du b\u00e2timent",
+        "cat3":"autres",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > Activit\u00e9s Economiques > D\u00e9chets du b\u00e2timent > Plastiques",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"activit\u00e9s economiques",
+        "cat2":"d\u00e9chets du b\u00e2timent",
+        "cat3":"plastiques",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > DEEE > D\u00e9chets d'Equipements Electriques et Electroniques",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"deee",
+        "cat3":"d\u00e9chets d'equipements electriques et electroniques",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > DEEE > Ecrans Cathode Ray Tube",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"deee",
+        "cat3":"ecrans cathode ray tube",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > DEEE > Ecrans Plats",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"deee",
+        "cat3":"ecrans plats",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > DEEE > Gros Electrom\u00e9nager Froid",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"deee",
+        "cat3":"gros electrom\u00e9nager froid",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > DEEE > Gros Electrom\u00e9nager Hors Froid",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"deee",
+        "cat3":"gros electrom\u00e9nager hors froid",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > DEEE > Petits Appareils en M\u00e9lange",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"deee",
+        "cat3":"petits appareils en m\u00e9lange",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > DEEE > Tubes et lampes",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"deee",
+        "cat3":"tubes et lampes",
+        "cat4":null
+    },
+    {
+        "catcategories":"Process et \u00e9missions fugitives > Agriculture > Sols agricoles",
+        "cat0":"process et \u00e9missions fugitives",
+        "cat1":"agriculture",
+        "cat2":"sols agricoles",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aliments infantiles > Desserts infantiles",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aliments infantiles",
+        "cat3":"desserts infantiles",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Eau,  traitement et distribution d'eau",
+        "cat0":"achats de biens",
+        "cat1":"eau,  traitement et distribution d'eau",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Boissons > Eaux",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"boissons",
+        "cat3":"eaux",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Produits sucr\u00e9s > Sucres, miels et assimil\u00e9s",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"produits sucr\u00e9s",
+        "cat3":"sucres, miels et assimil\u00e9s",
+        "cat4":null
+    },
+    {
+        "catcategories":"Electricit\u00e9 > Mix r\u00e9seau \u00e9lectrique > France continentale > Moyen",
+        "cat0":"electricit\u00e9",
+        "cat1":"mix r\u00e9seau \u00e9lectrique",
+        "cat2":"france continentale",
+        "cat3":"moyen",
+        "cat4":null
+    },
+    {
+        "catcategories":"Electricit\u00e9 > Mix r\u00e9seau \u00e9lectrique > France continentale > D\u00e9coupage par usages > M\u00e9thode saisonnalis\u00e9e",
+        "cat0":"electricit\u00e9",
+        "cat1":"mix r\u00e9seau \u00e9lectrique",
+        "cat2":"france continentale",
+        "cat3":"d\u00e9coupage par usages",
+        "cat4":"m\u00e9thode saisonnalis\u00e9e"
+    },
+    {
+        "catcategories":"Electricit\u00e9 > Mix r\u00e9seau \u00e9lectrique > France continentale > D\u00e9coupage par usages > M\u00e9thode moyenne",
+        "cat0":"electricit\u00e9",
+        "cat1":"mix r\u00e9seau \u00e9lectrique",
+        "cat2":"france continentale",
+        "cat3":"d\u00e9coupage par usages",
+        "cat4":"m\u00e9thode moyenne"
+    },
+    {
+        "catcategories":"Electricit\u00e9 > Moyen de production > Conventionnels",
+        "cat0":"electricit\u00e9",
+        "cat1":"moyen de production",
+        "cat2":"conventionnels",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Electricit\u00e9 > Moyen de production > Renouvelables",
+        "cat0":"electricit\u00e9",
+        "cat1":"moyen de production",
+        "cat2":"renouvelables",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Electricit\u00e9 > Mix r\u00e9seau \u00e9lectrique > Autres pays du monde",
+        "cat0":"electricit\u00e9",
+        "cat1":"mix r\u00e9seau \u00e9lectrique",
+        "cat2":"autres pays du monde",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Electricit\u00e9 > Mix r\u00e9seau \u00e9lectrique > Outre mer",
+        "cat0":"electricit\u00e9",
+        "cat1":"mix r\u00e9seau \u00e9lectrique",
+        "cat2":"outre mer",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > M\u00e9taux",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"m\u00e9taux",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > Plastiques autres r\u00e9sines ou plastiques complexes",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"plastiques autres r\u00e9sines ou plastiques complexes",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > Bois",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"bois",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > Carton",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"carton",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > Autres Materiaux",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"autres materiaux",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > Plastiques PE",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"plastiques pe",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > Plastiques PET",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"plastiques pet",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > Plastiques PP",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"plastiques pp",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > Plastiques PS-PSE",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"plastiques ps-pse",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > Plastiques PVC",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"plastiques pvc",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Emballages > Verre",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"emballages",
+        "cat3":"verre",
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Liquides > Usage sources mobiles > Usage routier",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"liquides",
+        "cat3":"usage sources mobiles",
+        "cat4":"usage routier"
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux > L\u00e9gumineuses",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"fruits, l\u00e9gumes, l\u00e9gumineuses et ol\u00e9agineux",
+        "cat3":"l\u00e9gumineuses",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits min\u00e9raux non m\u00e9talliques > Verres et articles en verre > Autres verres",
+        "cat0":"achats de biens",
+        "cat1":"produits min\u00e9raux non m\u00e9talliques",
+        "cat2":"verres et articles en verre",
+        "cat3":"autres verres",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Plastiques et caoutchouc > Polym\u00e8res de l'\u00e9thyl\u00e8ne",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"plastiques et caoutchouc",
+        "cat3":"polym\u00e8res de l'\u00e9thyl\u00e8ne",
+        "cat4":null
+    },
+    {
+        "catcategories":"UTCF > For\u00eats fran\u00e7aises > Aquitaine",
+        "cat0":"utcf",
+        "cat1":"for\u00eats fran\u00e7aises",
+        "cat2":"aquitaine",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"UTCF > For\u00eats fran\u00e7aises > Limousin",
+        "cat0":"utcf",
+        "cat1":"for\u00eats fran\u00e7aises",
+        "cat2":"limousin",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"UTCF > For\u00eats fran\u00e7aises > Picardie",
+        "cat0":"utcf",
+        "cat1":"for\u00eats fran\u00e7aises",
+        "cat2":"picardie",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Statistiques territoriales > Agriculture > Fraises",
+        "cat0":"statistiques territoriales",
+        "cat1":"agriculture",
+        "cat2":"fraises",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Gazeux > Gaz industriels",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"gazeux",
+        "cat3":"gaz industriels",
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Gazeux > Gaz naturel",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"gazeux",
+        "cat3":"gaz naturel",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Maritime > Gaziers",
+        "cat0":"transport de marchandises",
+        "cat1":"maritime",
+        "cat2":"gaziers",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Liquides > Usage sources mobiles > Autres usages",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"liquides",
+        "cat3":"usage sources mobiles",
+        "cat4":"autres usages"
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Glaces et sorbets > Glaces",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"glaces et sorbets",
+        "cat3":"glaces",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Glaces et sorbets > Sorbets",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"glaces et sorbets",
+        "cat3":"sorbets",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > B\u00e2timents, ouvrages d'art et voirie > Voirie > Glissi\u00e8re de s\u00e9curit\u00e9",
+        "cat0":"achats de biens",
+        "cat1":"b\u00e2timents, ouvrages d'art et voirie",
+        "cat2":"voirie",
+        "cat3":"glissi\u00e8re de s\u00e9curit\u00e9",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Mati\u00e8res grasses > Autres mati\u00e8res grasses",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"mati\u00e8res grasses",
+        "cat3":"autres mati\u00e8res grasses",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Minerais, granulats > Granulats",
+        "cat0":"achats de biens",
+        "cat1":"minerais, granulats",
+        "cat2":"granulats",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Liquides > Usage sources mobiles > Usage maritime et fluvial",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"liquides",
+        "cat3":"usage sources mobiles",
+        "cat4":"usage maritime et fluvial"
+    },
+    {
+        "catcategories":"Achats de biens > V\u00e9hicules automobiles et autres mat\u00e9riels de transport",
+        "cat0":"achats de biens",
+        "cat1":"v\u00e9hicules automobiles et autres mat\u00e9riels de transport",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Mati\u00e8res grasses > Huiles de poissons",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"mati\u00e8res grasses",
+        "cat3":"huiles de poissons",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Hydrog\u00e8ne > Distribution en station",
+        "cat0":"achats de biens",
+        "cat1":"hydrog\u00e8ne",
+        "cat2":"distribution en station",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Lait et produits laitiers > Laits",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"lait et produits laitiers",
+        "cat3":"laits",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits animaux > Caprins",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits animaux",
+        "cat3":"caprins",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits animaux > Cuniculture",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits animaux",
+        "cat3":"cuniculture",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Machines et \u00e9quipements > Machines industrielles",
+        "cat0":"achats de biens",
+        "cat1":"machines et \u00e9quipements",
+        "cat2":"machines industrielles",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Mati\u00e8res grasses > Margarines",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"mati\u00e8res grasses",
+        "cat3":"margarines",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Ferroviaire > France continentale > M\u00e9tro, tramway, RER, transilien (Ile de France)",
+        "cat0":"transport de personnes",
+        "cat1":"ferroviaire",
+        "cat2":"france continentale",
+        "cat3":"m\u00e9tro, tramway, rer, transilien (ile de france)",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Ferroviaire > France continentale > M\u00e9tro, tramway (autres villes)",
+        "cat0":"transport de personnes",
+        "cat1":"ferroviaire",
+        "cat2":"france continentale",
+        "cat3":"m\u00e9tro, tramway (autres villes)",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aides culinaires et ingr\u00e9dients divers > Condiments",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aides culinaires et ingr\u00e9dients divers",
+        "cat3":"condiments",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Fluvial",
+        "cat0":"transport de personnes",
+        "cat1":"fluvial",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Maritime > DOM COM",
+        "cat0":"transport de personnes",
+        "cat1":"maritime",
+        "cat2":"dom com",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > M\u00e9taux et produits m\u00e9talliques > Autres m\u00e9taux",
+        "cat0":"achats de biens",
+        "cat1":"m\u00e9taux et produits m\u00e9talliques",
+        "cat2":"autres m\u00e9taux",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Plastiques et caoutchouc > Polyamides",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"plastiques et caoutchouc",
+        "cat3":"polyamides",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Viandes, ?ufs, poissons > Oeufs",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"viandes, ?ufs, poissons",
+        "cat3":"oeufs",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits animaux > Volailles > ?ufs",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits animaux",
+        "cat3":"volailles",
+        "cat4":"?ufs"
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Ordures M\u00e9nag\u00e8res R\u00e9siduelles",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"ordures m\u00e9nag\u00e8res r\u00e9siduelles",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > B\u00e2timents, ouvrages d'art et voirie > Voirie > Parking",
+        "cat0":"achats de biens",
+        "cat1":"b\u00e2timents, ouvrages d'art et voirie",
+        "cat2":"voirie",
+        "cat3":"parking",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aliments infantiles > Petits pots sal\u00e9s et plats infantiles",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aliments infantiles",
+        "cat3":"petits pots sal\u00e9s et plats infantiles",
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Liquides > P\u00e9trole brut",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"liquides",
+        "cat3":"p\u00e9trole brut",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Maritime > P\u00e9troliers",
+        "cat0":"transport de marchandises",
+        "cat1":"maritime",
+        "cat2":"p\u00e9troliers",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Minerais, granulats > Pierres de carri\u00e8re",
+        "cat0":"achats de biens",
+        "cat1":"minerais, granulats",
+        "cat2":"pierres de carri\u00e8re",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Piles et accumulateurs portables",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"piles et accumulateurs portables",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > Activit\u00e9s Economiques > Piles et accumulateurs portables",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"activit\u00e9s economiques",
+        "cat2":"piles et accumulateurs portables",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Plastiques et caoutchouc > Plastique moyen",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"plastiques et caoutchouc",
+        "cat3":"plastique moyen",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Plastiques et caoutchouc > Polym\u00e8res du styr\u00e8ne",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"plastiques et caoutchouc",
+        "cat3":"polym\u00e8res du styr\u00e8ne",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Plastiques et caoutchouc > Polym\u00e8res du chlorure de vinyle",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"plastiques et caoutchouc",
+        "cat3":"polym\u00e8res du chlorure de vinyle",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > Activit\u00e9s Economiques > Plastiques",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"activit\u00e9s economiques",
+        "cat2":"plastiques",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Combustibles > Fossiles > Solides > D\u00e9chets",
+        "cat0":"combustibles",
+        "cat1":"fossiles",
+        "cat2":"solides",
+        "cat3":"d\u00e9chets",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits animaux > Porcins",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits animaux",
+        "cat3":"porcins",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Maritime > Porte-conteneur > Liaisons d\u00e9taill\u00e9es",
+        "cat0":"transport de marchandises",
+        "cat1":"maritime",
+        "cat2":"porte-conteneur",
+        "cat3":"liaisons d\u00e9taill\u00e9es",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Maritime > Porte-conteneur > Liaisons principales",
+        "cat0":"transport de marchandises",
+        "cat1":"maritime",
+        "cat2":"porte-conteneur",
+        "cat3":"liaisons principales",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Maritime > Porte-conteneur > Moyenne mondiale",
+        "cat0":"transport de marchandises",
+        "cat1":"maritime",
+        "cat2":"porte-conteneur",
+        "cat3":"moyenne mondiale",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits animaux > Volailles > Poules",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits animaux",
+        "cat3":"volailles",
+        "cat4":"poules"
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits animaux > Volailles > Poulets de chair",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits animaux",
+        "cat3":"volailles",
+        "cat4":"poulets de chair"
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Plastiques et caoutchouc > Polym\u00e8res de propyl\u00e8ne",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"plastiques et caoutchouc",
+        "cat3":"polym\u00e8res de propyl\u00e8ne",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Plastiques et produits chimiques > Produits chimiques > Autres produits chimiques",
+        "cat0":"achats de biens",
+        "cat1":"plastiques et produits chimiques",
+        "cat2":"produits chimiques",
+        "cat3":"autres produits chimiques",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits de l'agriculture et de la p\u00eache > Produits v\u00e9g\u00e9taux > Raisins",
+        "cat0":"achats de biens",
+        "cat1":"produits de l'agriculture et de la p\u00eache",
+        "cat2":"produits v\u00e9g\u00e9taux",
+        "cat3":"raisins",
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Rh\u00f4ne-Alpes > 1. Ain",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"rh\u00f4ne-alpes",
+        "cat2":"1. ain",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Champagne-Ardenne",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"champagne-ardenne",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Languedoc-Roussillon",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"languedoc-roussillon",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Midi-Pyr\u00e9n\u00e9es",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"midi-pyr\u00e9n\u00e9es",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Provence-Alpes-C\u00f4te d'Azur",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"provence-alpes-c\u00f4te d'azur",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Basse-Normandie",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"basse-normandie",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Auvergne",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"auvergne",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Poitou-Charentes",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"poitou-charentes",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Centre",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"centre",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Limousin",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"limousin",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Picardie",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"picardie",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Corse",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"corse",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Bourgogne",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"bourgogne",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Bretagne",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"bretagne",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Aquitaine",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"aquitaine",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Franche-Comt\u00e9",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"franche-comt\u00e9",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Rh\u00f4ne-Alpes > 26. Dr\u00f4me",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"rh\u00f4ne-alpes",
+        "cat2":"26. dr\u00f4me",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Haute-Normandie",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"haute-normandie",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Rh\u00f4ne-Alpes > 38. Is\u00e8re",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"rh\u00f4ne-alpes",
+        "cat2":"38. is\u00e8re",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Rh\u00f4ne-Alpes > 42. Loire",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"rh\u00f4ne-alpes",
+        "cat2":"42. loire",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Pays de la Loire",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"pays de la loire",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Lorraine",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"lorraine",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Nord-Pas-de-Calais",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"nord-pas-de-calais",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Alsace",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"alsace",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Rh\u00f4ne-Alpes > 69. Rh\u00f4ne",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"rh\u00f4ne-alpes",
+        "cat2":"69. rh\u00f4ne",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Rh\u00f4ne-Alpes > 7. Ard\u00e8che",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"rh\u00f4ne-alpes",
+        "cat2":"7. ard\u00e8che",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Rh\u00f4ne-Alpes > 73. Savoie",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"rh\u00f4ne-alpes",
+        "cat2":"73. savoie",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > Rh\u00f4ne-Alpes > 74. Haute-Savoie",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"rh\u00f4ne-alpes",
+        "cat2":"74. haute-savoie",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > \u00cele-de-France > 75. Paris",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"\u00eele-de-france",
+        "cat2":"75. paris",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > \u00cele-de-France > 77. Seine-et-Marne",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"\u00eele-de-france",
+        "cat2":"77. seine-et-marne",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > \u00cele-de-France > 78. Yvelines",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"\u00eele-de-france",
+        "cat2":"78. yvelines",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > \u00cele-de-France > 91. Essonne",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"\u00eele-de-france",
+        "cat2":"91. essonne",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > \u00cele-de-France > 92. Hauts-de-Seine",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"\u00eele-de-france",
+        "cat2":"92. hauts-de-seine",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > \u00cele-de-France > 93. Seine-Saint-Denis",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"\u00eele-de-france",
+        "cat2":"93. seine-saint-denis",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > \u00cele-de-France > 94. Val de Marne",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"\u00eele-de-france",
+        "cat2":"94. val de marne",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"R\u00e9seaux de chaleur \/ froid > \u00cele-de-France > 95. Val-d'Oise",
+        "cat0":"r\u00e9seaux de chaleur \/ froid",
+        "cat1":"\u00eele-de-france",
+        "cat2":"95. val-d'oise",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Routier > Par cat\u00e9gorie > Rigide par motorisation",
+        "cat0":"transport de marchandises",
+        "cat1":"routier",
+        "cat2":"par cat\u00e9gorie",
+        "cat3":"rigide par motorisation",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Maritime > Rouliers",
+        "cat0":"transport de marchandises",
+        "cat1":"maritime",
+        "cat2":"rouliers",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aides culinaires et ingr\u00e9dients divers > Sels",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aides culinaires et ingr\u00e9dients divers",
+        "cat3":"sels",
+        "cat4":null
+    },
+    {
+        "catcategories":"Statistiques territoriales > Agriculture > Serres > Mara\u00eech\u00e8res",
+        "cat0":"statistiques territoriales",
+        "cat1":"agriculture",
+        "cat2":"serres",
+        "cat3":"mara\u00eech\u00e8res",
+        "cat4":null
+    },
+    {
+        "catcategories":"Statistiques territoriales > Agriculture > Serres > Horticoles",
+        "cat0":"statistiques territoriales",
+        "cat1":"agriculture",
+        "cat2":"serres",
+        "cat3":"horticoles",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de services > Ratios mon\u00e9taires",
+        "cat0":"achats de services",
+        "cat1":"ratios mon\u00e9taires",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > Activit\u00e9s Economiques > Emballages plastiques",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"activit\u00e9s economiques",
+        "cat2":"emballages plastiques",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons > Aides culinaires et ingr\u00e9dients divers > Denr\u00e9es destin\u00e9es \u00e0 une alimentation particuli\u00e8re",
+        "cat0":"achats de biens",
+        "cat1":"produits agro-alimentaires, plats pr\u00e9par\u00e9s et boissons",
+        "cat2":"aides culinaires et ingr\u00e9dients divers",
+        "cat3":"denr\u00e9es destin\u00e9es \u00e0 une alimentation particuli\u00e8re",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Routier > Taxi ? VTC > DOM COM",
+        "cat0":"transport de personnes",
+        "cat1":"routier",
+        "cat2":"taxi ? vtc",
+        "cat3":"dom com",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Transport guid\u00e9",
+        "cat0":"transport de personnes",
+        "cat1":"transport guid\u00e9",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Ferroviaire > France continentale > TER",
+        "cat0":"transport de personnes",
+        "cat1":"ferroviaire",
+        "cat2":"france continentale",
+        "cat3":"ter",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > M\u00e9nages et assimil\u00e9s > Textiles",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"m\u00e9nages et assimil\u00e9s",
+        "cat2":"textiles",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Ferroviaire > France continentale > TGV",
+        "cat0":"transport de personnes",
+        "cat1":"ferroviaire",
+        "cat2":"france continentale",
+        "cat3":"tgv",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Ferroviaire > France continentale > Moyen",
+        "cat0":"transport de marchandises",
+        "cat1":"ferroviaire",
+        "cat2":"france continentale",
+        "cat3":"moyen",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Ferroviaire > France continentale > Diesel",
+        "cat0":"transport de marchandises",
+        "cat1":"ferroviaire",
+        "cat2":"france continentale",
+        "cat3":"diesel",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Ferroviaire > France continentale > Electrique",
+        "cat0":"transport de marchandises",
+        "cat1":"ferroviaire",
+        "cat2":"france continentale",
+        "cat3":"electrique",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Ferroviaire > Corse",
+        "cat0":"transport de marchandises",
+        "cat1":"ferroviaire",
+        "cat2":"corse",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Ferroviaire > Autres pays du monde",
+        "cat0":"transport de marchandises",
+        "cat1":"ferroviaire",
+        "cat2":"autres pays du monde",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Ferroviaire > Corse",
+        "cat0":"transport de personnes",
+        "cat1":"ferroviaire",
+        "cat2":"corse",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Ferroviaire > Autres pays du monde",
+        "cat0":"transport de personnes",
+        "cat1":"ferroviaire",
+        "cat2":"autres pays du monde",
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Ferroviaire > France continentale > Trains grandes lignes",
+        "cat0":"transport de personnes",
+        "cat1":"ferroviaire",
+        "cat2":"france continentale",
+        "cat3":"trains grandes lignes",
+        "cat4":null
+    },
+    {
+        "catcategories":"Traitement des d\u00e9chets > Eaux us\u00e9es",
+        "cat0":"traitement des d\u00e9chets",
+        "cat1":"eaux us\u00e9es",
+        "cat2":null,
+        "cat3":null,
+        "cat4":null
+    },
+    {
+        "catcategories":"Process et \u00e9missions fugitives > D\u00e9chets > Traitement des eaux us\u00e9es > Eaux us\u00e9es urbaines",
+        "cat0":"process et \u00e9missions fugitives",
+        "cat1":"d\u00e9chets",
+        "cat2":"traitement des eaux us\u00e9es",
+        "cat3":"eaux us\u00e9es urbaines",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Routier > Par cat\u00e9gorie > VUL par motorisation",
+        "cat0":"transport de marchandises",
+        "cat1":"routier",
+        "cat2":"par cat\u00e9gorie",
+        "cat3":"vul par motorisation",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits min\u00e9raux non m\u00e9talliques > Verres et articles en verre > Verres creux \/ verres d'emballage",
+        "cat0":"achats de biens",
+        "cat1":"produits min\u00e9raux non m\u00e9talliques",
+        "cat2":"verres et articles en verre",
+        "cat3":"verres creux \/ verres d'emballage",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > Produits min\u00e9raux non m\u00e9talliques > Verres et articles en verre > Verres plats",
+        "cat0":"achats de biens",
+        "cat1":"produits min\u00e9raux non m\u00e9talliques",
+        "cat2":"verres et articles en verre",
+        "cat3":"verres plats",
+        "cat4":null
+    },
+    {
+        "catcategories":"Achats de biens > B\u00e2timents, ouvrages d'art et voirie > Voirie > Structure de la voirie",
+        "cat0":"achats de biens",
+        "cat1":"b\u00e2timents, ouvrages d'art et voirie",
+        "cat2":"voirie",
+        "cat3":"structure de la voirie",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Routier > Voiture particuli\u00e8re > Moyenne parc - toutes motorisations",
+        "cat0":"transport de personnes",
+        "cat1":"routier",
+        "cat2":"voiture particuli\u00e8re",
+        "cat3":"moyenne parc - toutes motorisations",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Routier > Voiture particuli\u00e8re > Par usage (courte distance, longue distance, mixte) - toutes motorisations",
+        "cat0":"transport de personnes",
+        "cat1":"routier",
+        "cat2":"voiture particuli\u00e8re",
+        "cat3":"par usage (courte distance, longue distance, mixte) - toutes motorisations",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de personnes > Routier > Voiture particuli\u00e8re > Par gamme (toutes motorisations)",
+        "cat0":"transport de personnes",
+        "cat1":"routier",
+        "cat2":"voiture particuli\u00e8re",
+        "cat3":"par gamme (toutes motorisations)",
+        "cat4":null
+    },
+    {
+        "catcategories":"Transport de marchandises > Maritime > Vraquiers",
+        "cat0":"transport de marchandises",
+        "cat1":"maritime",
+        "cat2":"vraquiers",
+        "cat3":null,
+        "cat4":null
+    }
+]

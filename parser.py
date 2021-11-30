@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import requests as r
 from unidecode import unidecode
-from re import sub
+from re import sub, escape
 from pdb import set_trace as bp
 from collections import ChainMap
 import json
@@ -27,10 +27,24 @@ def normalizeType(string):
 def cleanUpSchema(listOfDict, keyToEvaluate, keysToKeep, keysToRemove):
   return  [{k:dict.get(k) for k in keysToKeep} for dict in listOfDict if not any(key.lower() in dict.get(keyToEvaluate).lower() for key in keysToRemove)]
 
+def recurseCategories(categories, listOfdicts): 
+  if categories.columns.size == 0:
+    return
+
+  uniqueCategories = categories.iloc[:,0].dropna().unique()
+
+  for uniqueCat in uniqueCategories:
+    query = categories.loc[categories.iloc[:,0].str.contains(escape(uniqueCat), na=False)].drop(columns=categories.columns[0], axis=1)
+    if query.columns.size == 0:
+      return
+    listOfdicts.append({"categorie": uniqueCat, "subs": query.iloc[:,0].dropna().unique().tolist()})
+    recurseCategories(query, listOfdicts)
+
+
+
 #Cleaned up schema
 # Get Schema from API
 dbSchema = r.get('https://data.ademe.fr/data-fair/api/v1/datasets/base-carbone(r)/').json()['schema']
-
 
 keysToKeep = ['key', 'x-originalName', 'type', 'enum', 'format']
 keysToRemove = ['_i', '_rand', '_id']
@@ -77,15 +91,34 @@ dbCleanValid = dbClean.loc[
   (dbClean["unite_francais"].str.contains('kgCO2e'))
   ]
 
+# Create Series to extract units and split each unit into numerator and denominator
 listUnit = pd.DataFrame(dbCleanValid['unite_francais'].unique(), columns=['units'])
+listUnit['numerators'] = listUnit['units'].str.split("/").str[0]
+listUnit['denominators'] = listUnit['units'].str.split("/").str[1]
+
+categories = pd.DataFrame(dbCleanValid['code_de_la_categorie'].unique(), columns=['categories'])
+# lower, split and expand categories table
+splitCategories = categories['categories'].str.lower().str.split('>', expand=True).add_prefix('cat')
+#Trim whitespaces
+splitCategories = splitCategories.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+catListOfDicts = []
+recurseCategories(splitCategories, catListOfDicts)
+
+
+# JSON Writing
 
 jsonDb = dbCleanValid.to_json(orient='records', indent=4)
 with open('dbcarbon.json', 'w', encoding='utf-8') as f:
   f.write(jsonDb)
 
 with open('dbCarbonEnums.json', 'w', encoding='utf-8') as f:
-  json.dump(enumList,f, indent=4)
+  json.dump(enumList, f, indent=4)
 
-jsonUnit = listUnit.to_json(orient='columns', indent=4)
+jsonUnit = listUnit.to_json(orient='records', indent=4)
 with open('dbCarbonUnits.json', 'w', encoding='utf-8') as f:
   f.write(jsonUnit)
+
+with open('dbCarbonCategories.json', 'w', encoding='utf-8') as f:
+  json.dump(catListOfDicts, f, indent=4)
+
