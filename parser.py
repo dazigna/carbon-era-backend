@@ -105,7 +105,6 @@ splitCategories = splitCategories.applymap(lambda x: x.strip() if isinstance(x, 
 catListOfDicts = []
 recurseCategories(splitCategories, catListOfDicts)
 
-
 # JSON Writing
 jsonDb = dbCleanValid.to_json(orient='records', indent=4)
 with open('dbcarbon.json', 'w', encoding='utf-8') as f:
