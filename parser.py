@@ -107,7 +107,6 @@ recurseCategories(splitCategories, catListOfDicts)
 
 
 # JSON Writing
-
 jsonDb = dbCleanValid.to_json(orient='records', indent=4)
 with open('dbcarbon.json', 'w', encoding='utf-8') as f:
   f.write(jsonDb)
