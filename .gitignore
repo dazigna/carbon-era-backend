@@ -1,3 +1,6 @@
 .venv
 .vscode
 .envrc
+
+__pycache__
+*.sqlite3
