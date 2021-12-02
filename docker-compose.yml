@@ -1,0 +1,37 @@
+version: "3.9"
+services:
+  db:
+    image: postgres
+    container_name: postgres-db
+    restart: on-failure
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - ./db/:/docker-entrypoint-initdb.d/
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - APP_DB_USER=goldenspice
+      - APP_DB_PASS=test
+      - APP_DB_NAME=carboneradb
+    ports:
+    - 5432:5432
+
+  webapi:
+    build: .
+    container_name: webapi
+    restart: on-failure
+    command: ["./wait-for-postgres.sh", "db", "./migrate-run.sh", "carbonera"]
+    volumes:
+      - ./:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - POSTGRES_NAME=carboneradb
+      - POSTGRES_USER=goldenspice
+      - POSTGRES_PASSWORD=test
+    depends_on:
+      - db  
