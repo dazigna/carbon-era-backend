@@ -92,9 +92,9 @@ dbCleanValid = dbClean.loc[
   ]
 
 # Create Series to extract units and split each unit into numerator and denominator
-listUnit = pd.DataFrame(dbCleanValid['unite_francais'].unique(), columns=['units'])
-listUnit['numerators'] = listUnit['units'].str.split("/").str[0]
-listUnit['denominators'] = listUnit['units'].str.split("/").str[1]
+listUnit = pd.DataFrame(dbCleanValid['unite_francais'].unique(), columns=['name'])
+listUnit['numerator'] = listUnit['name'].str.split("/").str[0]
+listUnit['denominator'] = listUnit['name'].str.split("/").str[1]
 
 categories = pd.DataFrame(dbCleanValid['code_de_la_categorie'].unique(), columns=['categories'])
 # lower, split and expand categories table
