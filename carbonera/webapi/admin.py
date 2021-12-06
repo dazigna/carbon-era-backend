@@ -1,5 +1,7 @@
 from django.contrib import admin
-from webapi.models import Units
+from webapi.models import Unit, Item, Category
 
 # Register your models here.
-admin.site.register(Units)
+admin.site.register(Unit)
+admin.site.register(Item)
+admin.site.register(Category)
