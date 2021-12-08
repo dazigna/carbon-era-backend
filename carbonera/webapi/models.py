@@ -9,10 +9,10 @@ class Unit(models.Model):
     denominator = models.CharField(max_length=64, null=True)
 
     def __str__(self) -> str:
-        return self.name
+        return f'{self.name}, {self.numerator}'
 
 class Category(models.Model):
-    name = models.CharField(max_length=64, null=True)
+    name = models.TextField(null=True)
     parent = models.IntegerField(null=True)
 
 class Item(models.Model):
