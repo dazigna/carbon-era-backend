@@ -47,8 +47,15 @@ class AdemeParser():
     cleanedUp = [{k:dict.get(k) for k in keysToKeep} for dict in listOfDict if not any(key.lower() in dict.get(keyToEvaluate).lower() for key in keysToRemove)]
     
     return cleanedUp
-  
-  def recurseCategories(self, categories, listOfdicts): 
+
+  def testRecurseCategories(self, categories, listOfdicts):
+    uniqueCategories = categories.iloc[:,0].dropna().unique()
+
+    for uniqueCat in uniqueCategories:
+      query = categories.loc[categories.iloc[:,0].str.match(escape(uniqueCat), na=False)].drop(columns=categories.columns[0], axis=1)
+
+
+  def recurseCategories(self, categories, listOfdicts, parent=None): 
     if categories.columns.size == 0:
       return
 
@@ -60,9 +67,9 @@ class AdemeParser():
       if query.columns.size == 0 or query.isna().all().all():
         continue
 
-      listOfdicts.append({"name": uniqueCat, "subCategories": query.iloc[:,0].dropna().unique().tolist()})
+      listOfdicts.append({"parent": parent, "name": uniqueCat, "subCategories": query.iloc[:,0].dropna().unique().tolist()})
 
-      self.recurseCategories(query, listOfdicts)
+      self.recurseCategories(query, listOfdicts, uniqueCat)
 
   # Create dataframe for categories and build a parent-child model -> Adjacent list model
   def createCategories(self, dataFrame):

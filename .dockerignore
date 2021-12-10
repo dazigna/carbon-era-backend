@@ -1,0 +1,7 @@
+.venv
+.vscode
+.envrc
+*.json
+*.csv
+__pycache__
+*.sqlite3
