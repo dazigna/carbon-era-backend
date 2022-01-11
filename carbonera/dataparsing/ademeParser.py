@@ -1,11 +1,38 @@
+from dataclasses import dataclass, field, fields
+from typing import Dict, List
 import pandas as pd
 import numpy as np
 import requests as r
+from requests.api import get
 from unidecode import unidecode
-from re import sub, escape
+import re
+# from re import sub, escape, match, search, compile
 import json
 import argparse
 from pathlib import Path
+
+
+@dataclass
+class Unit:
+  name: str
+  values: List[str]
+
+  def toDict(self):
+    return {'name': self.name, 'values': self.values}
+
+@dataclass
+class Units:
+  mass: Unit = field(default=Unit('MASS', ['kg', 'tonne']))
+  energy: Unit = field(default=Unit('ENERGY', ['GJ', 'tep', 'MJ', 'kWh']))
+  volume: Unit = field(default=Unit('VOLUME',['l', 'm3', 'ml']))
+  area: Unit = field(default=Unit('AREA', ['ha', 'm2']))
+  distance: Unit = field(default=Unit('DISTANCE', ['m', 'km']))
+  time: Unit = field(default=Unit('TIME', ['heure',]))
+  quantity: Unit = field(default=Unit('QUANTITY', ['unité', 'repas', 'euro dépensé', 'heure', 'livre' ]))
+
+  def supportedUnits(self):
+    units = [getattr(self, field.name) for field in fields(self) if issubclass(field.type, Unit)]
+    return [u.toDict() for u in units]
 
 class AdemeParser():
   def __init__(self):
@@ -22,7 +49,7 @@ class AdemeParser():
   #convert latin string to snake_case
   def normalizeString(self, string):
     newString = unidecode(string.lower())
-    return sub("[^0-9a-zA-Z]+", "_", newString)
+    return re.sub("[^0-9a-zA-Z]+", "_", newString)
 
   #Assign types to string written types
   def normalizeType(self, string):
@@ -47,13 +74,6 @@ class AdemeParser():
     cleanedUp = [{k:dict.get(k) for k in keysToKeep} for dict in listOfDict if not any(key.lower() in dict.get(keyToEvaluate).lower() for key in keysToRemove)]
     
     return cleanedUp
-
-  def testRecurseCategories(self, categories, listOfdicts):
-    uniqueCategories = categories.iloc[:,0].dropna().unique()
-
-    for uniqueCat in uniqueCategories:
-      query = categories.loc[categories.iloc[:,0].str.match(escape(uniqueCat), na=False)].drop(columns=categories.columns[0], axis=1)
-
 
   def recurseCategories(self, categories, listOfdicts, parent=None): 
     if categories.columns.size == 0:
@@ -82,12 +102,55 @@ class AdemeParser():
 
     return categories
 
-  # Create Series to extract units and split each unit into numerator and denominator
-  def createUnits(self, dataFrame):
-    dataFrame['numerator'] = dataFrame['name'].str.split("/").str[0]
-    dataFrame['denominator'] = dataFrame['name'].str.split("/").str[1]
-    return dataFrame.to_dict(orient='records')
+  def normalizeUnit(self, row, denominatorColName, unitColName, supportedUnits):
+    row = row.copy()
+    
+    # Split denominator in case of spaces 
+    splitDenom = row[denominatorColName].split()
+    
+    unitName = None
+    unitSymbol = None
 
+    for unit in supportedUnits:
+      unitValues = unit.get('values')
+      for s in unitValues:
+        for d in splitDenom:
+          if re.match(rf'(?i)(?<!\S){s}(?!\S)', re.escape(d), re.IGNORECASE):
+            unitName = unit.get('name')
+            unitSymbol = s
+            # print(f'Denom: {row[denominatorColName]} - match {unitName}, {unitSymbol}')
+            break      
+      
+      # set(supportedUnits[0].get('values')).intersection(set(row[denominatorColName].split()))
+
+      
+    # unitMatch = next((item for item in supportedUnits if any(s.lower() in row[denominatorColName].lower() for s in item.get('values'))), None)
+# set(supportedUnits[0].get('values')).intersection(set(row[denominatorColName].split()))
+    # unitMatch = next((item for item in supportedUnits if any(re.match(rf'(?i)(?<!\S){s}(?!\S)', re.escape(row[denominatorColName]), re.IGNORECASE) for s in item.get('values'))), None)
+    # match(rf'(?i)(?<!\S){}(?!\S)', escape(row[denominatorColName]), re.IGNORECASE)
+    if unitName:
+      # denominator_clean = next((item for item in unitMatch.get('values') if item.lower() in row[denominatorColName].lower()), None)
+      row['unit_type'] = unitName  # unitMatch.get('name')
+      row['unit_name_clean'] = row[unitColName].replace(row[denominatorColName], unitSymbol )  #row[unitColName].replace(row[denominatorColName], denominator_clean )
+      row['unit_denominator_clean'] = unitSymbol #denominator_clean
+
+    return row
+  
+  # Create new columns in DF to decompose and normalize units
+  # https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  def decomposeAndNormalizedUnits(self, dataFrame, colName):
+    df = dataFrame.copy()
+    splitUnits = df[colName].str.split("/")
+    df.loc[:, 'unit_numerator'] = splitUnits.str[0]
+    df.loc[:, 'unit_denominator'] = splitUnits.str[1:].str.join('/')
+    
+    supportedUnits = Units().supportedUnits()
+
+    return df.apply(self.normalizeUnit, args=('unit_denominator', colName, supportedUnits,), axis=1)    
+
+  def createUnits(self, df):
+    return df.loc[:, ('unite_francais', 'unit_numerator', 'unit_denominator', 'unit_type', 'unit_name_clean', 'unit_denominator_clean')].drop_duplicates().sort_values('unit_type')
+  
   def createEnums(self, schema):
     return [{dict.get('key'):dict.get('enum')} for dict in schema]
   
@@ -127,25 +190,61 @@ class AdemeParser():
     print(f'Loading data from URL and filtering ...')
     # Read original CSV from API
     dataFrameDirty = pd.read_csv(self.databaseUrl, header=0, names=dataColumnsDirty, delimiter=';', encoding='latin-1', decimal=',').convert_dtypes()
-
+    
     #Filter out original dataframe with clean schema
     dataFrameClean = pd.DataFrame(dataFrameDirty, columns=dataColumns)
 
     print(f'Creating valid outputs ...')
+    #Units we don't support
+    unitsToExclude = [
+      'kgCO2e/tonne de clinker',
+      'kgCO2e/kg NTK',
+      'kgCO2e/kg DCO éliminée',
+      'kgCO2e/kg BioGNC',
+      'kgCO2e/tonne de N',
+      'kgCO2e/kgH2/100km',
+      'kgCO2e/kg de matière active',
+      'kgCO2e/kg de cuir traité',
+      'kgCO2e/kgH2',
+      'kgCO2e/tonne de K2O',
+      'kgCO2e/keuro',
+      'kgCO2e/tonne de P2O5',
+      'kgCO2e/kg d\'azote épandu',
+      'kgCO2e/tonne produites',
+      'kgCO2e/m² SHON',
+      'kgCO2e/m²',
+      'kgCO2e/m2 SHON',
+      'kgCO2e/m² de paroi',
+      'kgCO2e/m3.km',
+      'kgCO2e/t.km',
+      'kgCO2e/kWhPCI',
+      'kgCO2e/kWhPCS',
+      'kgCO2e/ha.an',
+      'kgCO2e/tonne.km',
+      'kgCO2e/m² de toiture',
+      'kgCO2e/m² de sol',
+      '']
+
     #Select only valid elements
     self.carbonDf = dataFrameClean.loc[
       (dataFrameClean['total_poste_non_decompose']>0) &
       (dataFrameClean['statut_de_l_element'].isin(["Valide générique","Valide spécifique"])) & 
-      (dataFrameClean["unite_francais"].str.contains('kgCO2e'))
+      (dataFrameClean["unite_francais"].str.contains('kgCO2e')) &
+      (dataFrameClean["unite_francais"].isin(unitsToExclude) == False)
       ]
+    
+    self.carbonDf = self.decomposeAndNormalizedUnits(self.carbonDf, 'unite_francais')
+    
+    # Create units
+    self.carbonUnits = self.createUnits(self.carbonDf)
+    print(self.carbonUnits)
     writableDf = self.carbonDf.replace({np.nan: None})
+    
     self.carbonDb = writableDf.to_dict(orient='records')
     #Create Enums
     self.carbonEnums = self.createEnums(schema)
 
-    # Create units
-    dfUnits = pd.DataFrame(self.carbonDf['unite_francais'].unique(), columns=['name'])
-    self.carbonUnits = self.createUnits(dfUnits)
+  
 
     #Create categories
     dataFrameCategories = pd.DataFrame(self.carbonDf['code_de_la_categorie'].unique(), columns=['categories'])
@@ -157,6 +256,8 @@ class AdemeParser():
       json.dump(jsonData, f, indent=4)
 
   def writeToFiles(self, path=None):
+    writableDf = self.carbonDf.replace({np.nan: None})
+
     # JSON Writing
     self.writeToJson(Path(path, 'carbonDatabase.json'), self.carbonDb)
     self.writeToJson(Path(path, 'carbonUnits.json'), self.carbonUnits)
