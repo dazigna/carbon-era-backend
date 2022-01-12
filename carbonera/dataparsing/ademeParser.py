@@ -10,25 +10,99 @@ import re
 import json
 import argparse
 from pathlib import Path
+from timeit import default_timer as timer
+'''
+Type: str
+variables: [
+  {
+    symbol: kg
+    values: [kg]
+  },
+  {
+    symbol: t
+    values: [tonne, t]
+  },
+]
+'''
 
+@dataclass
+class UnitVariable:
+  symbol: str
+  values: List[str]
+
+  def toDict(self):
+      return {'symbol': self.symbol, 'values': self.values}
 
 @dataclass
 class Unit:
   name: str
-  values: List[str]
+  variables: List[UnitVariable]
 
   def toDict(self):
-    return {'name': self.name, 'values': self.values}
+    return {'name': self.name, 'variables': [v.toDict() for v in self.variables]}
 
 @dataclass
 class Units:
-  mass: Unit = field(default=Unit('MASS', ['kg', 'tonne']))
-  energy: Unit = field(default=Unit('ENERGY', ['GJ', 'tep', 'MJ', 'kWh']))
-  volume: Unit = field(default=Unit('VOLUME',['l', 'm3', 'ml']))
-  area: Unit = field(default=Unit('AREA', ['ha', 'm2']))
-  distance: Unit = field(default=Unit('DISTANCE', ['m', 'km']))
-  time: Unit = field(default=Unit('TIME', ['heure',]))
-  quantity: Unit = field(default=Unit('QUANTITY', ['unité', 'repas', 'euro dépensé', 'heure', 'livre' ]))
+  UnitVariable('kg', ['kg'])
+  mass: Unit = field(default=Unit(
+    'MASS',
+    [
+      UnitVariable('kg', ['kg']),
+      UnitVariable('t', ['t', 'tonne', 'tonnes'])
+    ]
+  ))
+  energy: Unit = field(default=Unit(
+    'ENERGY', 
+    [
+        UnitVariable('GJ', ['Gj',]),
+        UnitVariable('MJ', ['MJ',]),
+        UnitVariable('tep', ['tep']),
+        UnitVariable('kWh', ['kWh'])
+    ]
+  ))    
+  volume: Unit = field(default=Unit(
+    'VOLUME',
+    [
+        UnitVariable('l', ['l', 'litre']),
+        UnitVariable('m3', ['m3', 'm³']),
+        UnitVariable('ml', ['ml'])
+    ]
+  ))
+
+  area: Unit = field(default=Unit(
+    'AREA',
+    [
+        UnitVariable('ha', ['ha']),
+        UnitVariable('m2', ['m2', 'm²'])
+    ]
+  ))
+  distance: Unit = field(default=Unit(
+    'DISTANCE',
+    [
+        UnitVariable('m', ['m']),
+        UnitVariable('km', ['km'])
+    ]
+  ))
+  time: Unit = field(default=Unit(
+    'TIME',
+    [
+        UnitVariable('h', ['h', 'heure', 'heures']),
+    ]
+    ))
+  quantity: Unit = field(default=Unit(
+    'QUANTITY', 
+    [
+        UnitVariable('unité', ['unité']),
+        UnitVariable('repas', ['repas']),
+        UnitVariable('euro', ['euro,']),
+        UnitVariable('livre', ['livre']),
+        UnitVariable('personne.mois', ['personne.mois']),
+        UnitVariable('passager.km', ['passager.km']),
+        UnitVariable('peq.km', ['peq.km']),
+        UnitVariable('appareil', ['appareil']),
+
+    ]
+    ))
 
   def supportedUnits(self):
     units = [getattr(self, field.name) for field in fields(self) if issubclass(field.type, Unit)]
@@ -82,7 +156,7 @@ class AdemeParser():
     uniqueCategories = categories.iloc[:,0].dropna().unique()
 
     for uniqueCat in uniqueCategories:
-      query = categories.loc[categories.iloc[:,0].str.match(escape(uniqueCat), na=False)].drop(columns=categories.columns[0], axis=1)
+      query = categories.loc[categories.iloc[:,0].str.match(re.escape(uniqueCat), na=False)].drop(columns=categories.columns[0], axis=1)
 
       if query.columns.size == 0 or query.isna().all().all():
         continue
@@ -110,20 +184,30 @@ class AdemeParser():
     
     unitName = None
     unitSymbol = None
-
+    energyType = ['PCI', 'PCS']
+    unitEnergyType = None
     for unit in supportedUnits:
-      unitValues = unit.get('values')
-      for s in unitValues:
-        for d in splitDenom:
-          if re.match(rf'(?i)(?<!\S){s}(?!\S)', re.escape(d), re.IGNORECASE):
-            unitName = unit.get('name')
-            unitSymbol = s
-            # print(f'Denom: {row[denominatorColName]} - match {unitName}, {unitSymbol}')
-            break      
+        unitVariables = unit.get('variables')
+        for v in unitVariables:
+            for s in v.get('values'):
+                for d in splitDenom:
+                    if d.upper() in energyType:
+                        unitEnergyType = d
+                    if re.match(rf'(?i)(?<!\S){s}(?!\S)', re.escape(d), re.IGNORECASE):
+                        unitName = unit.get('name')
+                        unitSymbol = v.get('symbol')
+                        # print('breaking exec')
+                        break
+                else:
+                    continue
+                break
+            else: 
+                continue
+            break
       
       # set(supportedUnits[0].get('values')).intersection(set(row[denominatorColName].split()))
+        
 
-      
     # unitMatch = next((item for item in supportedUnits if any(s.lower() in row[denominatorColName].lower() for s in item.get('values'))), None)
 # set(supportedUnits[0].get('values')).intersection(set(row[denominatorColName].split()))
     # unitMatch = next((item for item in supportedUnits if any(re.match(rf'(?i)(?<!\S){s}(?!\S)', re.escape(row[denominatorColName]), re.IGNORECASE) for s in item.get('values'))), None)
@@ -133,6 +217,7 @@ class AdemeParser():
       row['unit_type'] = unitName  # unitMatch.get('name')
       row['unit_name_clean'] = row[unitColName].replace(row[denominatorColName], unitSymbol )  #row[unitColName].replace(row[denominatorColName], denominator_clean )
       row['unit_denominator_clean'] = unitSymbol #denominator_clean
+      row['unit_energy_type'] = unitEnergyType
 
     return row
   
@@ -149,7 +234,7 @@ class AdemeParser():
     return df.apply(self.normalizeUnit, args=('unit_denominator', colName, supportedUnits,), axis=1)    
 
   def createUnits(self, df):
-    return df.loc[:, ('unite_francais', 'unit_numerator', 'unit_denominator', 'unit_type', 'unit_name_clean', 'unit_denominator_clean')].drop_duplicates().sort_values('unit_type')
+    return df.loc[:, ('unite_francais', 'unit_numerator', 'unit_denominator', 'unit_type', 'unit_name_clean', 'unit_denominator_clean', 'unit_energy_type')].drop_duplicates().sort_values('unit_type')
   
   def createEnums(self, schema):
     return [{dict.get('key'):dict.get('enum')} for dict in schema]
@@ -223,7 +308,9 @@ class AdemeParser():
       'kgCO2e/tonne.km',
       'kgCO2e/m² de toiture',
       'kgCO2e/m² de sol',
-      '']
+      '100 feuilles A4',
+      'plant',
+      ]
 
     #Select only valid elements
     self.carbonDf = dataFrameClean.loc[
@@ -236,8 +323,13 @@ class AdemeParser():
     self.carbonDf = self.decomposeAndNormalizedUnits(self.carbonDf, 'unite_francais')
     
     # Create units
+
+    start = timer()
     self.carbonUnits = self.createUnits(self.carbonDf)
+    end = timer()
+    print(f'computed in {end-start}')
     print(self.carbonUnits)
+
     writableDf = self.carbonDf.replace({np.nan: None})
     
     self.carbonDb = writableDf.to_dict(orient='records')
