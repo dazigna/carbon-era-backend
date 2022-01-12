@@ -241,7 +241,7 @@ class AdemeParser():
 
   def createUnits(self, df):
     # return df.loc[:, ('unite_francais', 'unit_numerator', 'unit_denominator', 'unit_type', 'unit_name_clean', 'unit_denominator_clean', 'unit_energy_type')].drop_duplicates().sort_values('unit_type')
-    return df.loc[:, ('unit_type', 'unit_name_clean', 'unit_denominator_clean', 'unit_energy_type')].drop_duplicates().sort_values('unit_type')
+    return df.loc[:, ('unit_type', 'unit_name_clean', 'unit_numerator', 'unit_denominator_clean', 'unit_energy_type')].drop_duplicates().sort_values('unit_type')
 
   def createEnums(self, schema):
     return [{dict.get('key'):dict.get('enum')} for dict in schema]
@@ -335,7 +335,7 @@ class AdemeParser():
     self.carbonUnits = self.createUnits(self.carbonDf)
     # end = timer()
     # print(f'computed in {end-start}')
-    print(self.carbonUnits)
+    # print(self.carbonUnits)
     self.carbonUnitsJson = self.carbonUnits.where(pd.notnull(self.carbonUnits), None).to_dict(orient='records')
     
     # Properly replace NA and NaN

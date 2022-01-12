@@ -2,6 +2,7 @@ from django.core.management.base import BaseCommand, CommandError, CommandParser
 from webapi.models import Unit, Item, Category
 from dataparsing.ademeParser import AdemeParser 
 from django.core.exceptions import MultipleObjectsReturned
+from pprint import pprint
 
 class Command(BaseCommand):
     help = "Injects initial ademe data into database"
@@ -10,13 +11,16 @@ class Command(BaseCommand):
         parser = AdemeParser()
         parser.parse()
         self.stdout.write('Inserting Unit data')
+
         modelUnits = [
             Unit(
-                name=dict.get('name'),
-                numerator=dict.get('numerator'),
-                denominator=dict.get('denominator')) 
-            for dict in parser.carbonUnits]
-
+                name=item.get('unit_name_clean'),
+                numerator=item.get('unit_numerator'),
+                denominator=item.get('unit_denominator_clean'),
+                quantity=item.get('unit_type'),
+                attribute={'energy_type': item.get('unit_energy_type')},
+            )
+            for item in parser.carbonUnitsJson]
         unitObjects = Unit.objects.bulk_create(modelUnits)
         self.stdout.write(self.style.SUCCESS(f'Created {len(unitObjects)} model units'))
         
@@ -44,7 +48,7 @@ class Command(BaseCommand):
         modelItems = []
         for entry in parser.carbonDb:
             
-            unitObject = Unit.objects.get(name=entry.get('unite_francais'))
+            unitObject = Unit.objects.get(name=entry.get('unit_name_clean'))
             splitCategories = entry.get('code_de_la_categorie').lower().strip().split('>')
             elder = splitCategories[0].strip()
             categoryName = splitCategories[-1].strip()
