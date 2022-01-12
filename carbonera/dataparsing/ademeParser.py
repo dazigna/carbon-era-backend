@@ -94,7 +94,7 @@ class Units:
     [
         UnitVariable('unité', ['unité']),
         UnitVariable('repas', ['repas']),
-        UnitVariable('euro', ['euro,']),
+        UnitVariable('euro', ['euro', 'euro dépensé']),
         UnitVariable('livre', ['livre']),
         UnitVariable('personne.mois', ['personne.mois']),
         UnitVariable('passager.km', ['passager.km']),
@@ -112,11 +112,13 @@ class AdemeParser():
   def __init__(self):
     self.schemaUrl = 'https://data.ademe.fr/data-fair/api/v1/datasets/base-carbone(r)/'
     self.databaseUrl = 'https://data.ademe.fr/data-fair/api/v1/datasets/base-carbone(r)/full'
-    self.carbonCategories = []
-    self.carbonUnits = []
-    self.carbonEnums = []
+    self.carbonUnits = pd.DataFrame()
     self.carbonDf = pd.DataFrame()
     self.carbonDb = []
+    self.carbonCategories = []
+    self.carbonUnitsJson = []
+    self.carbonEnums = []
+
     print(f'Init Ademe parser with schema URL {self.schemaUrl} and databaseUrl {self.databaseUrl}')
     return
 
@@ -179,41 +181,45 @@ class AdemeParser():
   def normalizeUnit(self, row, denominatorColName, unitColName, supportedUnits):
     row = row.copy()
     
-    # Split denominator in case of spaces 
-    splitDenom = row[denominatorColName].split()
-    
     unitName = None
     unitSymbol = None
     energyType = ['PCI', 'PCS']
     unitEnergyType = None
-    for unit in supportedUnits:
-        unitVariables = unit.get('variables')
-        for v in unitVariables:
-            for s in v.get('values'):
-                for d in splitDenom:
-                    if d.upper() in energyType:
-                        unitEnergyType = d
-                    if re.match(rf'(?i)(?<!\S){s}(?!\S)', re.escape(d), re.IGNORECASE):
-                        unitName = unit.get('name')
-                        unitSymbol = v.get('symbol')
-                        # print('breaking exec')
-                        break
-                else:
+    
+    # Split denominator in case of spaces 
+    splitDenom = row[denominatorColName].split()
+    
+    #TODO: Fix regex to correct this hack -- This is a stupid hack 
+    if 'personne.mois' in splitDenom:
+        unitName = Units.quantity.name
+        unitSymbol = 'personne.mois'
+    elif 'passager.km' in splitDenom :
+        unitName = Units.quantity.name
+        unitSymbol = 'passager.km'
+    elif 'peq.km' in splitDenom:
+        unitName = Units.quantity.name
+        unitSymbol = 'peq.km'
+    else:
+        for unit in supportedUnits:
+            unitVariables = unit.get('variables')
+            for v in unitVariables:
+                for s in v.get('values'):
+                    for d in splitDenom:
+                        if d.upper() in energyType:
+                            unitEnergyType = d
+                        if re.match(rf'(?i)(?<!\S){s}(?!\S)', re.escape(d), re.IGNORECASE):
+                            unitName = unit.get('name')
+                            unitSymbol = v.get('symbol')
+                            # print('breaking exec')
+                            break
+                    else:
+                        continue
+                    break
+                else: 
                     continue
                 break
-            else: 
-                continue
-            break
-      
-      # set(supportedUnits[0].get('values')).intersection(set(row[denominatorColName].split()))
-        
-
-    # unitMatch = next((item for item in supportedUnits if any(s.lower() in row[denominatorColName].lower() for s in item.get('values'))), None)
-# set(supportedUnits[0].get('values')).intersection(set(row[denominatorColName].split()))
-    # unitMatch = next((item for item in supportedUnits if any(re.match(rf'(?i)(?<!\S){s}(?!\S)', re.escape(row[denominatorColName]), re.IGNORECASE) for s in item.get('values'))), None)
-    # match(rf'(?i)(?<!\S){}(?!\S)', escape(row[denominatorColName]), re.IGNORECASE)
+              
     if unitName:
-      # denominator_clean = next((item for item in unitMatch.get('values') if item.lower() in row[denominatorColName].lower()), None)
       row['unit_type'] = unitName  # unitMatch.get('name')
       row['unit_name_clean'] = row[unitColName].replace(row[denominatorColName], unitSymbol )  #row[unitColName].replace(row[denominatorColName], denominator_clean )
       row['unit_denominator_clean'] = unitSymbol #denominator_clean
@@ -234,8 +240,9 @@ class AdemeParser():
     return df.apply(self.normalizeUnit, args=('unit_denominator', colName, supportedUnits,), axis=1)    
 
   def createUnits(self, df):
-    return df.loc[:, ('unite_francais', 'unit_numerator', 'unit_denominator', 'unit_type', 'unit_name_clean', 'unit_denominator_clean', 'unit_energy_type')].drop_duplicates().sort_values('unit_type')
-  
+    # return df.loc[:, ('unite_francais', 'unit_numerator', 'unit_denominator', 'unit_type', 'unit_name_clean', 'unit_denominator_clean', 'unit_energy_type')].drop_duplicates().sort_values('unit_type')
+    return df.loc[:, ('unit_type', 'unit_name_clean', 'unit_denominator_clean', 'unit_energy_type')].drop_duplicates().sort_values('unit_type')
+
   def createEnums(self, schema):
     return [{dict.get('key'):dict.get('enum')} for dict in schema]
   
@@ -308,8 +315,8 @@ class AdemeParser():
       'kgCO2e/tonne.km',
       'kgCO2e/m² de toiture',
       'kgCO2e/m² de sol',
-      '100 feuilles A4',
-      'plant',
+      'kgCO2e/100 feuilles A4',
+      'kgCO2e/plant',
       ]
 
     #Select only valid elements
@@ -324,19 +331,17 @@ class AdemeParser():
     
     # Create units
 
-    start = timer()
+    # start = timer()
     self.carbonUnits = self.createUnits(self.carbonDf)
-    end = timer()
-    print(f'computed in {end-start}')
+    # end = timer()
+    # print(f'computed in {end-start}')
     print(self.carbonUnits)
-
-    writableDf = self.carbonDf.replace({np.nan: None})
+    self.carbonUnitsJson = self.carbonUnits.where(pd.notnull(self.carbonUnits), None).to_dict(orient='records')
     
-    self.carbonDb = writableDf.to_dict(orient='records')
+    # Properly replace NA and NaN
+    self.carbonDb = self.carbonDf.where(pd.notnull(self.carbonDf), None).to_dict(orient='records')
     #Create Enums
     self.carbonEnums = self.createEnums(schema)
-
-  
 
     #Create categories
     dataFrameCategories = pd.DataFrame(self.carbonDf['code_de_la_categorie'].unique(), columns=['categories'])
@@ -348,11 +353,9 @@ class AdemeParser():
       json.dump(jsonData, f, indent=4)
 
   def writeToFiles(self, path=None):
-    writableDf = self.carbonDf.replace({np.nan: None})
-
     # JSON Writing
     self.writeToJson(Path(path, 'carbonDatabase.json'), self.carbonDb)
-    self.writeToJson(Path(path, 'carbonUnits.json'), self.carbonUnits)
+    self.writeToJson(Path(path, 'carbonUnits.json'), self.carbonUnitsJson)
     self.writeToJson(Path(path, 'carbonEnums.json'), self.carbonEnums)
     self.writeToJson(Path(path, 'carbonCategories.json'), self.carbonCategories)
 
