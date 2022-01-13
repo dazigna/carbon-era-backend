@@ -6,9 +6,11 @@ class Unit(models.Model):
     name = models.CharField(max_length=128, null=True)
     numerator = models.CharField(max_length=64, null=True)
     denominator = models.CharField(max_length=64, null=True)
+    quantity = models.CharField(max_length=64, null=True)
+    attribute = models.JSONField(null=True)
 
     def __str__(self) -> str:
-        return f'{self.name}, {self.numerator}'
+        return f'{self.name}, {self.attribute}, {self.quantity}'
 
 
 class Category(TreeNode):

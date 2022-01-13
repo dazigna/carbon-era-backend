@@ -2,6 +2,7 @@ from django.core.management.base import BaseCommand, CommandError, CommandParser
 from webapi.models import Unit, Item, Category
 from dataparsing.ademeParser import AdemeParser 
 from django.core.exceptions import MultipleObjectsReturned
+from pprint import pprint
 
 class Command(BaseCommand):
     help = "Injects initial ademe data into database"
@@ -10,16 +11,22 @@ class Command(BaseCommand):
         parser = AdemeParser()
         parser.parse()
         self.stdout.write('Inserting Unit data')
-        modelUnits = [
-            Unit(
-                name=dict.get('name'),
-                numerator=dict.get('numerator'),
-                denominator=dict.get('denominator')) 
-            for dict in parser.carbonUnits]
 
-        unitObjects = Unit.objects.bulk_create(modelUnits)
-        self.stdout.write(self.style.SUCCESS(f'Created {len(unitObjects)} model units'))
+        # Only fill DB if count is different
+        if Unit.objects.all().count() != len(parser.carbonUnitsJson):
+            modelUnits = [
+                Unit(
+                    name=item.get('unit_name_clean'),
+                    numerator=item.get('unit_numerator'),
+                    denominator=item.get('unit_denominator_clean'),
+                    quantity=item.get('unit_type'),
+                    attribute= {'energy_type': item.get('unit_energy_type')} if item.get('unit_energy_type') else None,
+                )
+                for item in parser.carbonUnitsJson]
+            unitObjects = Unit.objects.bulk_create(modelUnits)
+            self.stdout.write(self.style.SUCCESS(f'Created {len(unitObjects)} model units'))
         
+        # Only fill DB if count is different
         self.stdout.write('Inserting category data')
         for dict in parser.carbonCategories:        
             categoryName = dict.get('name')
@@ -37,14 +44,18 @@ class Command(BaseCommand):
             for sub in dict.get('subCategories'):
                 Category.objects.create(name=sub, parent=parentCategory)
 
-        self.stdout.write(self.style.SUCCESS(f'Created {Category.objects.all().count} category data'))
+        self.stdout.write(self.style.SUCCESS(f'Created {Category.objects.all().count()} category data'))
 
         self.stdout.write('Inserting carbon Item data')
 
         modelItems = []
         for entry in parser.carbonDb:
+            # https://docs.djangoproject.com/en/3.2/topics/db/queries/#querying-jsonfield
+            if entry.get('unit_energy_type'):
+                unitObject = Unit.objects.get(name=entry.get('unit_name_clean'), attribute={'energy_type': entry.get('unit_energy_type')})
+            else:
+                unitObject = Unit.objects.get(name=entry.get('unit_name_clean'), attribute__isnull=True)
             
-            unitObject = Unit.objects.get(name=entry.get('unite_francais'))
             splitCategories = entry.get('code_de_la_categorie').lower().strip().split('>')
             elder = splitCategories[0].strip()
             categoryName = splitCategories[-1].strip()
