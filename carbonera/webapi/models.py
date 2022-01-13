@@ -10,7 +10,7 @@ class Unit(models.Model):
     attribute = models.JSONField(null=True)
 
     def __str__(self) -> str:
-        return f'{self.name}, {self.numerator}'
+        return f'{self.name}, {self.attribute}, {self.quantity}'
 
 
 class Category(TreeNode):
