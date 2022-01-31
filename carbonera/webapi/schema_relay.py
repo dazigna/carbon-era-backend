@@ -11,7 +11,10 @@ class CategoryNode(DjangoObjectType):
     class Meta:
         model = Category
         fields = "__all__"
-        filter_fields = ['name', 'parent__name']
+        filter_fields = {
+            'name': ['exact'],
+            'parent__name': ['exact', 'isnull'],
+        }
         interfaces = (graphene.relay.Node, )
 
 # Filtering
