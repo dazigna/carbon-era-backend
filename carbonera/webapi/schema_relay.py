@@ -13,6 +13,7 @@ class CategoryNode(DjangoObjectType):
         fields = "__all__"
         filter_fields = {
             'name': ['exact'],
+            'uuid': ['exact'],
             'parent__name': ['exact', 'isnull'],
         }
         interfaces = (graphene.relay.Node, )
@@ -27,7 +28,8 @@ class ItemFilter(django_filters.FilterSet):
         fields = {
             'name_fr': ['exact', 'icontains', 'istartswith'],
             'category_str': ['exact', 'icontains', 'istartswith'],
-            'category__name':['exact']
+            'category__name':['exact'],
+            'uuid': ['exact'],
         }
 
     def filter_items_by_category_name(self, queryset, name, value):
@@ -49,7 +51,7 @@ class UnitNode(DjangoObjectType):
     class Meta:
         model = Unit
         fields = "__all__"
-        filter_fields = ['name', 'quantity']
+        filter_fields = ['name', 'quantity', 'uuid']
         interfaces = (graphene.relay.Node, )
 
 class Query(graphene.ObjectType):
