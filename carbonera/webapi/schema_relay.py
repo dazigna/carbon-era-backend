@@ -1,6 +1,6 @@
-from dataclasses import fields
 import django_filters
 import graphene
+from django.contrib.postgres.search import SearchQuery, SearchVector
 from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 
@@ -21,6 +21,7 @@ class CategoryNode(DjangoObjectType):
 # Filtering
 class ItemFilter(django_filters.FilterSet):
     items_by_category_name = django_filters.CharFilter(field_name="category__name", method='filter_items_by_category_name')
+    search = django_filters.CharFilter(field_name="name_fr", method="search_fulltext")
 
     class Meta:
         model = Item
@@ -33,12 +34,16 @@ class ItemFilter(django_filters.FilterSet):
         }
 
     def filter_items_by_category_name(self, queryset, name, value):
+        print(queryset)
         cat = Category.objects.get(name=value)
         catDescendants = cat.descendants()
         if catDescendants:
-            return Item.objects.filter(category__name__in=[x.name for x in catDescendants])
+            return queryset.filter(category__name__in=[x.name for x in catDescendants])
         else:
-            return Item.objects.filter(category=cat)
+            return queryset.filter(category=cat)
+
+    def search_fulltext(self, queryset, name, value):
+        return queryset.annotate(search=SearchVector(name)).filter(search=SearchQuery(value))
 
 class ItemNode(DjangoObjectType):
     class Meta:
