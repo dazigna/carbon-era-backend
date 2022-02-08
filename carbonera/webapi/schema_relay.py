@@ -12,7 +12,7 @@ class CategoryNode(DjangoObjectType):
         model = Category
         fields = "__all__"
         filter_fields = {
-            'name': ['exact'],
+            'name': ['iexact'],
             'uuid': ['exact'],
             'parent__name': ['exact', 'isnull'],
         }
@@ -25,16 +25,14 @@ class ItemFilter(django_filters.FilterSet):
 
     class Meta:
         model = Item
-        # fields = "__all__"
         fields = {
-            'name_fr': ['exact', 'icontains', 'istartswith'],
+            'name_fr': ['iexact', 'icontains', 'istartswith'],
             'category_str': ['exact', 'icontains', 'istartswith'],
             'category__name':['exact'],
             'uuid': ['exact'],
         }
 
     def filter_items_by_category_name(self, queryset, name, value):
-        print(queryset)
         cat = Category.objects.get(name=value)
         catDescendants = cat.descendants()
         if catDescendants:
