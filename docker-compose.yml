@@ -22,6 +22,7 @@ services:
 
   webapi:
     build: .
+    tty: true
     container_name: webapi
     restart: on-failure
     command: ["./wait-for-postgres.sh", "db", "./migrate-run.sh", "carbonera"]

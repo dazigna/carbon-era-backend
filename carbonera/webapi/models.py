@@ -1,8 +1,11 @@
+
+import uuid
 from django.db import models
 from django.db.models.deletion import SET_NULL
 from tree_queries.models import TreeNode
 
 class Unit(models.Model):
+    uuid = models.UUIDField(default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=128, null=True)
     numerator = models.CharField(max_length=64, null=True)
     denominator = models.CharField(max_length=64, null=True)
@@ -14,12 +17,14 @@ class Unit(models.Model):
 
 
 class Category(TreeNode):
+    uuid = models.UUIDField(default=uuid.uuid4, editable=False)
     name = models.TextField(null=True)
 
     def __str__(self) -> str:
         return f'{self.pk} - {self.name}, parent: {self.parent}'
 
 class Item(models.Model):
+    uuid = models.UUIDField(default=uuid.uuid4, editable=False)
     name_fr = models.TextField(null=True)
     name_en = models.TextField(null=True)
     attribute_fr = models.TextField(null=True)

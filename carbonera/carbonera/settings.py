@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-&y#!38u&)-5+12@@y!w8j4v$1u+jk5@7g_a7v7krw(ez^32nr9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -38,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.postgres',
+    'debug_toolbar',
     'graphene_django',
     'tree_queries',
     'django_extensions',
@@ -45,10 +46,11 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware', 
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -131,7 +133,42 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
 GRAPHENE = {
-    'SCHEMA': 'webapi.schema.schema' # Where your Graphene schema lives
+    'SCHEMA': 'carbonera.schema.schema', # Where your Graphene schema lives
+    'SCHEMA_OUTPUT': 'schema.json',  # defaults to schema.json,
+    'SCHEMA_INDENT': 4,  # Defaults to None (displays all data on a single line)
+    'MIDDLEWARE': [
+        'graphene_django.debug.DjangoDebugMiddleware',
+    ]
 }
+
+LOGGING = {
+        'version': 1,
+        'disable_existing_loggers': False,
+        'formatters': {
+            'default': {
+                'format': '[DJANGO] %(levelname)s %(asctime)s %(module)s '
+                          '%(name)s.%(funcName)s:%(lineno)s: %(message)s'
+            },
+        },
+        'handlers': {
+            'console': {
+                'level': 'DEBUG',
+                'class': 'logging.StreamHandler',
+                'formatter': 'default',
+            }
+        },
+        'loggers': {
+            '*': {
+                'handlers': ['console'],
+                'level': 'DEBUG',
+                'propagate': True,
+            }
+        },
+    }
+
+if DEBUG:
+    import os  # only if you haven't already imported this
+    import socket  # only if you haven't already imported this
+    hostname, _, ips = socket.gethostbyname_ex(socket.gethostname())
+    INTERNAL_IPS = [ip[:-1] + '1' for ip in ips] + ['127.0.0.1', '10.0.2.2']
