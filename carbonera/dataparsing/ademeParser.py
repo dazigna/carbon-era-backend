@@ -1,6 +1,5 @@
 import pandas as pd
 import re
-import argparse
 from pathlib import Path
 
 from .normalizer import Normalizer
@@ -15,6 +14,7 @@ class AdemeParser():
     self.carbonCategories = []
     self.carbonUnitsJson = []
     self.carbonEnums = []
+    self.carbonContributors = []
     self.normalizer = Normalizer()
     self.cacheManager = CacheManager()
 
@@ -22,7 +22,6 @@ class AdemeParser():
 
   def cleanUpSchema(self, listOfDict, keyToEvaluate, keysToKeep, keysToRemove):
     cleanedUp = [{k:dict.get(k) for k in keysToKeep} for dict in listOfDict if not any(key.lower() in dict.get(keyToEvaluate).lower() for key in keysToRemove)]
-    
     return cleanedUp
 
   def recurseCategories(self, categories, listOfdicts, parent=None): 
@@ -59,6 +58,9 @@ class AdemeParser():
   def createEnums(self, schema):
     return [{dict.get('key'):dict.get('enum')} for dict in schema]
   
+  def createContributors(self, df):
+    return df.loc[:, 'contributeur'].drop_duplicates().to_list()
+
   def parse(self):
     databaseSchemaRaw = self.cacheManager.getSchema()
 
@@ -80,7 +82,7 @@ class AdemeParser():
     
     print(f'Creating new schema ...')
     #2. Second we need to create the schema we want to keep, by filtering out the useless values
-    keysToRemove += ['Code_gaz_', 'Valeur_gaz_', '_espagnol', 'qualite', 'commentaire', 'nom_poste_', 'contributeur', 'source', 'reglementation', 'programme', 'date']
+    keysToRemove += ['Code_gaz_', 'Valeur_gaz_', '_espagnol', 'qualite', 'commentaire', 'nom_poste_', 'source', 'reglementation', 'programme', 'date']
     keysToNormalize += ['type']
 
     schema = self.cleanUpSchema(schemaDirty, keyToEvaluate=keyToEvaluate, keysToKeep=keysToKeep, keysToRemove=keysToRemove)
@@ -140,7 +142,7 @@ class AdemeParser():
     
     self.carbonDf = self.normalizer.normalizeName(self.carbonDf)
     self.carbonDf = self.normalizer.decomposeAndNormalizedUnits(self.carbonDf, 'unite_francais')
-    
+
     # Create units
     self.carbonUnits = self.createUnits(self.carbonDf)
     
@@ -150,6 +152,8 @@ class AdemeParser():
     self.carbonDb = self.carbonDf.where(pd.notnull(self.carbonDf), None).to_dict(orient='records')
     #Create Enums
     self.carbonEnums = self.createEnums(schema)
+
+    self.carbonContributors = self.createContributors(self.carbonDf)
 
     #Create categories
     dataFrameCategories = pd.DataFrame(self.carbonDf['code_de_la_categorie'].unique(), columns=['categories'])
@@ -161,18 +165,4 @@ class AdemeParser():
     FileIOManager().writeToJson(Path(path, 'carbonUnits.json'), self.carbonUnitsJson)
     FileIOManager().writeToJson(Path(path, 'carbonEnums.json'), self.carbonEnums)
     FileIOManager().writeToJson(Path(path, 'carbonCategories.json'), self.carbonCategories)
-
-def main():
-  argParser = argparse.ArgumentParser(description="Parse and clean up Ademe data")
-  argParser.add_argument('-o', type=str, dest='filePath', default='.', help='output directory')
-  args = argParser.parse_args()
-
-  if args.filePath:
-    print(f'Files will be written to {args.filePath}')
-  
-  dataParser = AdemeParser()
-  dataParser.parse()
-  dataParser.writeToFiles(args.filePath)
-
-if __name__ == '__main__':
-  main()
+    FileIOManager().writeToJson(Path(path, 'carbonContributors.json'), self.carbonContributors)
