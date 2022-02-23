@@ -48,3 +48,9 @@ class Item(models.Model):
     def __str__(self) -> str:
         return self.name_fr
 
+class Contributor(models.Model):
+    uuid = models.UUIDField(default=uuid.uuid4, editable=False)
+    name = models.TextField(null=True)
+
+    def __str__(self) -> str:
+        return self.name_fr
