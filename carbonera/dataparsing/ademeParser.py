@@ -1,14 +1,11 @@
 import pandas as pd
 import re
-# from re import sub, escape, match, search, compile
 import argparse
 from pathlib import Path
-from timeit import default_timer as timer
 
-from units import *
-from normalizer import *
-from cacheManager import *
-from fileIO import *
+from .normalizer import Normalizer
+from .cacheManager import CacheManager
+from .fileIO import FileIOManager
 
 class AdemeParser():
   def __init__(self):

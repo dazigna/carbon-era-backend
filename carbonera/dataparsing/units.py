@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field, fields
-from typing import Dict, List
+from typing import List
 
 '''
 Type: str

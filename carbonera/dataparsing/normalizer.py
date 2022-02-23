@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import re
 from unidecode import unidecode
-from units import *
+from .units import Units
 
 class Normalizer():
     def __init__(self):

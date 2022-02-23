@@ -1,8 +1,8 @@
 from typing import Dict
 import requests as r
 from pathlib import Path
-import lox
-from fileIO import FileIOManager
+
+from .fileIO import FileIOManager
 
 class CacheManager():
     
