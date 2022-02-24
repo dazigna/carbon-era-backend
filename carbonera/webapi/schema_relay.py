@@ -4,7 +4,7 @@ from django.contrib.postgres.search import SearchQuery, SearchVector
 from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 
-from webapi.models import Category, Item, Unit
+from webapi.models import Category, Item, Unit, Contributor
 
 
 class CategoryNode(DjangoObjectType):
@@ -57,6 +57,13 @@ class UnitNode(DjangoObjectType):
         filter_fields = ['name', 'quantity', 'uuid']
         interfaces = (graphene.relay.Node, )
 
+class ContributorNode(DjangoObjectType):
+    class Meta:
+        model = Contributor
+        fields = "__all__"
+        filter_fields = ['name', 'uuid']
+        interfaces = (graphene.relay.Node, )
+
 class Query(graphene.ObjectType):
     category = graphene.relay.Node.Field(CategoryNode)
     categories = DjangoFilterConnectionField(CategoryNode)
@@ -66,5 +73,8 @@ class Query(graphene.ObjectType):
 
     unit = graphene.relay.Node.Field(UnitNode)
     units = DjangoFilterConnectionField(UnitNode)
+
+    contributor = graphene.relay.Node.Field(ContributorNode)
+    contributors = DjangoFilterConnectionField(ContributorNode)
 
 schema = graphene.Schema(query=Query)
