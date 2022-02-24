@@ -1,8 +1,7 @@
-from django.core.management.base import BaseCommand, CommandError, CommandParser
-from webapi.models import Unit, Item, Category
+from django.core.management.base import BaseCommand
+from webapi.models import Unit, Item, Category, Contributor
 from dataparsing.ademeParser import AdemeParser 
 from django.core.exceptions import MultipleObjectsReturned
-from pprint import pprint
 
 class Command(BaseCommand):
     help = "Injects initial ademe data into database"
@@ -27,6 +26,7 @@ class Command(BaseCommand):
             self.stdout.write(self.style.SUCCESS(f'Created {len(unitObjects)} model units'))
         
         # Only fill DB if count is different
+        #Categories
         self.stdout.write('Inserting category data')
         for dict in parser.carbonCategories:        
             categoryName = dict.get('name')
@@ -46,10 +46,18 @@ class Command(BaseCommand):
 
         self.stdout.write(self.style.SUCCESS(f'Created {Category.objects.all().count()} category data'))
 
+        # Contributors
+        self.stdout.write('Inserting contributor data')
+        contributorObjects = [Contributor(name=item) for item in parser.carbonContributors]
+        Contributor.objects.bulk_create(contributorObjects)
+        self.stdout.write(self.style.SUCCESS(f'Created {Contributor.objects.all().count()} contributor data'))
+
         self.stdout.write('Inserting carbon Item data')
 
         modelItems = []
         for entry in parser.carbonDb:
+            contributorObject = Contributor.objects.get(name=entry.get('contributeur'))
+
             # https://docs.djangoproject.com/en/3.2/topics/db/queries/#querying-jsonfield
             if entry.get('unit_energy_type'):
                 unitObject = Unit.objects.get(name=entry.get('unit_name_clean'), attribute={'energy_type': entry.get('unit_energy_type')})
@@ -87,7 +95,8 @@ class Command(BaseCommand):
                 co2b=entry.get('co2b'),
                 other_ghg=entry.get('autres_ges'),
                 unit=unitObject,
-                category=catObject
+                category=catObject,
+                contributor=contributorObject
                 )
             
             modelItems.append(it)

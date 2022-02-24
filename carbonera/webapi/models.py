@@ -1,4 +1,3 @@
-
 import uuid
 from django.db import models
 from django.db.models.deletion import SET_NULL
@@ -23,6 +22,15 @@ class Category(TreeNode):
     def __str__(self) -> str:
         return f'{self.pk} - {self.name}, parent: {self.parent}'
 
+
+class Contributor(models.Model):
+    uuid = models.UUIDField(default=uuid.uuid4, editable=False)
+    name = models.TextField(null=True)
+
+    def __str__(self) -> str:
+        return self.name
+
+
 class Item(models.Model):
     uuid = models.UUIDField(default=uuid.uuid4, editable=False)
     name_fr = models.TextField(null=True)
@@ -44,13 +52,7 @@ class Item(models.Model):
 
     category = models.ForeignKey(Category, null=True, on_delete=SET_NULL)
     unit = models.ForeignKey(Unit, null=True, on_delete=SET_NULL)
+    contributor = models.ForeignKey(Contributor, null=True, on_delete=SET_NULL)
     
-    def __str__(self) -> str:
-        return self.name_fr
-
-class Contributor(models.Model):
-    uuid = models.UUIDField(default=uuid.uuid4, editable=False)
-    name = models.TextField(null=True)
-
     def __str__(self) -> str:
         return self.name_fr
